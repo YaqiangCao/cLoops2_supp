@@ -1,0 +1,1153 @@
+2020-10-30 15:24:58 cLoops2 INFO     Command: cLoops2 callLoops -d ../resting_100m -eps 200,500,1000 -minPts 5 -p 20 -o resting -cut 1000 -mcut -1 -filter False -i False -j True -w True -hic False -max_cut False -trans False
+2020-10-30 15:24:59 cLoops2 INFO     Command cLoops2 agg -d ../activate_100m -o activate -cut 0 -mcut -1 -p 30 -skipZeros False -peaks  -peak_ext 5000 -peak_bins 100 -peak_norm False -loops activate_loops.txt -loop_ext 10 -loop_cut 0 -loop_norm True -viewPoints  -viewPoint_upExt 10 -viewPoint_downExt 10 -domains  -domain_ext 0.5 -domain_vmin None -domain_vmax None -bws  -1D False
+2020-10-30 15:24:59 cLoops2 ERROR    activate_loops.txt not exists! Return.
+2020-10-30 15:24:59 cLoops2 INFO     cLoops2 agg finished. Used time: 0:00:00.002158.
+
+
+
+2020-10-30 15:24:59 cLoops2 INFO     Command: cLoops2 callLoops -d ../activate_100m -eps 200,500,1000 -minPts 5 -p 20 -o activate -cut 1000 -mcut -1 -filter False -i False -j True -w True -hic False -max_cut False -trans False
+2020-10-30 15:24:59 cLoops2 INFO     Clustering chrY and chrY using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-10-30 15:24:59 cLoops2 INFO     Clustering chrY and chrY using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-10-30 15:24:59 cLoops2 INFO     Clustering chr15 and chr15 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-10-30 15:25:00 cLoops2 INFO     Clustering chr19 and chr19 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-10-30 15:25:00 cLoops2 INFO     Clustering chr20 and chr20 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-10-30 15:25:00 cLoops2 INFO     Clustering chr21 and chr21 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-10-30 15:25:00 cLoops2 INFO     Clustering chr19 and chr19 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-10-30 15:25:00 cLoops2 INFO     Clustering chr15 and chr15 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-10-30 15:25:00 cLoops2 INFO     Clustering chr14 and chr14 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-10-30 15:25:00 cLoops2 INFO     Clustering chr17 and chr17 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-10-30 15:25:00 cLoops2 INFO     Clustering chr21 and chr21 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-10-30 15:25:00 cLoops2 INFO     Clustering chr16 and chr16 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-10-30 15:25:00 cLoops2 INFO     Clustering chr11 and chr11 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-10-30 15:25:00 cLoops2 INFO     Clustering chr9 and chr9 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-10-30 15:25:00 cLoops2 INFO     Clustering chrX and chrX using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-10-30 15:25:00 cLoops2 INFO     Clustering chr16 and chr16 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-10-30 15:25:00 cLoops2 INFO     Clustering chrX and chrX using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-10-30 15:25:00 cLoops2 INFO     Clustering chr20 and chr20 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-10-30 15:25:00 cLoops2 INFO     Clustering chr9 and chr9 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-10-30 15:25:00 cLoops2 INFO     Clustering chrY and chrY finished. Estimated 0 self-ligation reads and 255 inter-ligation reads, 25 candidate loops.
+2020-10-30 15:25:00 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:25:00 cLoops2 INFO     Clustering chr13 and chr13 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-10-30 15:25:00 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:25:00 cLoops2 INFO     Clustering chr8 and chr8 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-10-30 15:25:01 cLoops2 INFO     Clustering chr17 and chr17 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-10-30 15:25:01 cLoops2 INFO     Clustering chr10 and chr10 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-10-30 15:25:01 cLoops2 INFO     Clustering chr14 and chr14 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-10-30 15:25:01 cLoops2 INFO     Clustering chr4 and chr4 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-10-30 15:25:01 cLoops2 INFO     Clustering chr22 and chr22 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-10-30 15:25:01 cLoops2 INFO     Clustering chr13 and chr13 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-10-30 15:25:01 cLoops2 INFO     Clustering chrY and chrY finished. Estimated 0 self-ligation reads and 381 inter-ligation reads, 62 candidate loops.
+2020-10-30 15:25:01 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:25:01 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:25:01 cLoops2 INFO     Clustering chr11 and chr11 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-10-30 15:25:01 cLoops2 INFO     Clustering chr6 and chr6 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-10-30 15:25:01 cLoops2 INFO     Clustering chr2 and chr2 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-10-30 15:25:01 cLoops2 INFO     Clustering chr6 and chr6 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-10-30 15:25:01 cLoops2 INFO     Clustering chr22 and chr22 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-10-30 15:25:01 cLoops2 INFO     Clustering chr5 and chr5 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-10-30 15:25:01 cLoops2 INFO     Clustering chr2 and chr2 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-10-30 15:25:02 cLoops2 INFO     Clustering chr8 and chr8 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-10-30 15:25:02 cLoops2 INFO     Clustering chr3 and chr3 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-10-30 15:25:02 cLoops2 INFO     Clustering chr4 and chr4 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-10-30 15:25:02 cLoops2 INFO     Clustering chr10 and chr10 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-10-30 15:25:02 cLoops2 INFO     Clustering chr1 and chr1 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-10-30 15:25:02 cLoops2 INFO     Clustering chr5 and chr5 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-10-30 15:25:03 cLoops2 INFO     Clustering chr1 and chr1 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-10-30 15:25:03 cLoops2 INFO     Clustering chr3 and chr3 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-10-30 15:25:05 cLoops2 INFO     Command cLoops2 agg -d ../resting_100m -o resting -cut 0 -mcut -1 -p 30 -skipZeros False -peaks  -peak_ext 5000 -peak_bins 100 -peak_norm False -loops resting_loops.txt -loop_ext 10 -loop_cut 0 -loop_norm True -viewPoints  -viewPoint_upExt 10 -viewPoint_downExt 10 -domains  -domain_ext 0.5 -domain_vmin None -domain_vmax None -bws  -1D False
+2020-10-30 15:25:05 cLoops2 ERROR    resting_loops.txt not exists! Return.
+2020-10-30 15:25:05 cLoops2 INFO     cLoops2 agg finished. Used time: 0:00:00.007605.
+
+
+
+2020-10-30 15:25:19 cLoops2 INFO     Clustering chr22 and chr22 finished. Estimated 0 self-ligation reads and 12963 inter-ligation reads, 1135 candidate loops.
+2020-10-30 15:25:19 cLoops2 INFO     Clustering chr22 and chr22 finished. Estimated 0 self-ligation reads and 10732 inter-ligation reads, 1258 candidate loops.
+2020-10-30 15:25:20 cLoops2 INFO     Clustering chr21 and chr21 finished. Estimated 147 self-ligation reads and 11382 inter-ligation reads, 991 candidate loops.
+2020-10-30 15:25:20 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:25:20 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:25:20 cLoops2 INFO     Clustering chr12 and chr12 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-10-30 15:25:21 cLoops2 INFO     Clustering chr12 and chr12 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-10-30 15:25:22 cLoops2 INFO     Clustering chr7 and chr7 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-10-30 15:25:26 cLoops2 INFO     Clustering chr21 and chr21 finished. Estimated 0 self-ligation reads and 10891 inter-ligation reads, 1357 candidate loops.
+2020-10-30 15:25:26 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:25:26 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:25:26 cLoops2 INFO     Clustering chr19 and chr19 finished. Estimated 0 self-ligation reads and 20781 inter-ligation reads, 1892 candidate loops.
+2020-10-30 15:25:26 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:25:26 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:25:27 cLoops2 INFO     Clustering chr18 and chr18 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-10-30 15:25:28 cLoops2 INFO     Clustering chr7 and chr7 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-10-30 15:25:31 cLoops2 INFO     Clustering chr19 and chr19 finished. Estimated 0 self-ligation reads and 17732 inter-ligation reads, 2054 candidate loops.
+2020-10-30 15:25:31 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:25:31 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:25:32 cLoops2 INFO     Clustering chr18 and chr18 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-10-30 15:25:32 cLoops2 INFO     Clustering chr20 and chr20 finished. Estimated 133 self-ligation reads and 18151 inter-ligation reads, 1765 candidate loops.
+2020-10-30 15:25:32 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:25:32 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:25:36 cLoops2 INFO     Clustering chr16 and chr16 finished. Estimated 0 self-ligation reads and 20837 inter-ligation reads, 1990 candidate loops.
+2020-10-30 15:25:36 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:25:36 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:25:41 cLoops2 INFO     Clustering chr15 and chr15 finished. Estimated 329 self-ligation reads and 27322 inter-ligation reads, 2473 candidate loops.
+2020-10-30 15:25:41 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:25:41 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:25:41 cLoops2 INFO     Clustering chr20 and chr20 finished. Estimated 0 self-ligation reads and 17223 inter-ligation reads, 2226 candidate loops.
+2020-10-30 15:25:41 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:25:41 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:25:47 cLoops2 INFO     Clustering chr17 and chr17 finished. Estimated 210 self-ligation reads and 34406 inter-ligation reads, 3042 candidate loops.
+2020-10-30 15:25:47 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:25:47 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:25:48 cLoops2 INFO     Clustering chr16 and chr16 finished. Estimated 0 self-ligation reads and 20799 inter-ligation reads, 2546 candidate loops.
+2020-10-30 15:25:49 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:25:49 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:25:50 cLoops2 INFO     Clustering chrX and chrX finished. Estimated 0 self-ligation reads and 15830 inter-ligation reads, 1645 candidate loops.
+2020-10-30 15:25:50 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:25:50 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:25:56 cLoops2 INFO     Clustering chr13 and chr13 finished. Estimated 0 self-ligation reads and 28610 inter-ligation reads, 2564 candidate loops.
+2020-10-30 15:25:56 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:25:56 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:25:58 cLoops2 INFO     Clustering chr14 and chr14 finished. Estimated 240 self-ligation reads and 37969 inter-ligation reads, 3309 candidate loops.
+2020-10-30 15:25:58 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:25:58 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:25:58 cLoops2 INFO     Clustering chr17 and chr17 finished. Estimated 0 self-ligation reads and 27308 inter-ligation reads, 3266 candidate loops.
+2020-10-30 15:25:58 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:25:58 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:25:59 cLoops2 INFO     Clustering chr9 and chr9 finished. Estimated 109 self-ligation reads and 29132 inter-ligation reads, 2888 candidate loops.
+2020-10-30 15:25:59 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:25:59 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:25:59 cLoops2 INFO     Clustering chr15 and chr15 finished. Estimated 0 self-ligation reads and 24276 inter-ligation reads, 2974 candidate loops.
+2020-10-30 15:25:59 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:25:59 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:26:02 cLoops2 INFO     Clustering chrX and chrX finished. Estimated 0 self-ligation reads and 13482 inter-ligation reads, 1909 candidate loops.
+2020-10-30 15:26:02 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:26:02 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:26:09 cLoops2 INFO     Clustering chr18 and chr18 finished. Estimated 0 self-ligation reads and 18425 inter-ligation reads, 1830 candidate loops.
+2020-10-30 15:26:10 cLoops2 INFO     Clustering chr13 and chr13 finished. Estimated 0 self-ligation reads and 25747 inter-ligation reads, 3506 candidate loops.
+2020-10-30 15:26:10 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:26:10 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:26:12 cLoops2 INFO     Clustering chr8 and chr8 finished. Estimated 93 self-ligation reads and 35157 inter-ligation reads, 3392 candidate loops.
+2020-10-30 15:26:12 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:26:12 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:26:12 cLoops2 INFO     Clustering chr11 and chr11 finished. Estimated 0 self-ligation reads and 43667 inter-ligation reads, 4054 candidate loops.
+2020-10-30 15:26:12 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:26:12 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:26:12 cLoops2 INFO     Clustering chr14 and chr14 finished. Estimated 0 self-ligation reads and 32355 inter-ligation reads, 3823 candidate loops.
+2020-10-30 15:26:12 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:26:12 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:26:19 cLoops2 INFO     Clustering chr10 and chr10 finished. Estimated 329 self-ligation reads and 44522 inter-ligation reads, 4199 candidate loops.
+2020-10-30 15:26:19 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:26:19 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:26:20 cLoops2 INFO     Clustering chr9 and chr9 finished. Estimated 0 self-ligation reads and 30553 inter-ligation reads, 4078 candidate loops.
+2020-10-30 15:26:20 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:26:20 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:26:22 cLoops2 INFO     Clustering chr18 and chr18 finished. Estimated 0 self-ligation reads and 18758 inter-ligation reads, 2561 candidate loops.
+2020-10-30 15:26:29 cLoops2 INFO     Clustering chr11 and chr11 finished. Estimated 0 self-ligation reads and 39047 inter-ligation reads, 5037 candidate loops.
+2020-10-30 15:26:29 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:26:29 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:26:33 cLoops2 INFO     Clustering chr4 and chr4 finished. Estimated 574 self-ligation reads and 42642 inter-ligation reads, 4114 candidate loops.
+2020-10-30 15:26:33 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:26:33 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:26:39 cLoops2 INFO     Clustering chr12 and chr12 finished. Estimated 802 self-ligation reads and 51828 inter-ligation reads, 4715 candidate loops.
+2020-10-30 15:26:43 cLoops2 INFO     Clustering chr10 and chr10 finished. Estimated 0 self-ligation reads and 41819 inter-ligation reads, 5388 candidate loops.
+2020-10-30 15:26:43 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:26:43 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:26:43 cLoops2 INFO     Clustering chr5 and chr5 finished. Estimated 295 self-ligation reads and 56867 inter-ligation reads, 5317 candidate loops.
+2020-10-30 15:26:44 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:26:44 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:26:46 cLoops2 INFO     Clustering chr8 and chr8 finished. Estimated 0 self-ligation reads and 37195 inter-ligation reads, 4988 candidate loops.
+2020-10-30 15:26:46 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:26:46 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:26:47 cLoops2 INFO     Clustering chr6 and chr6 finished. Estimated 328 self-ligation reads and 64715 inter-ligation reads, 6049 candidate loops.
+2020-10-30 15:26:47 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:26:47 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:26:51 cLoops2 INFO     Clustering chr7 and chr7 finished. Estimated 0 self-ligation reads and 43249 inter-ligation reads, 4282 candidate loops.
+2020-10-30 15:26:57 cLoops2 INFO     Clustering chr12 and chr12 finished. Estimated 136 self-ligation reads and 47144 inter-ligation reads, 5962 candidate loops.
+2020-10-30 15:27:00 cLoops2 INFO     Clustering chr3 and chr3 finished. Estimated 182 self-ligation reads and 62576 inter-ligation reads, 6068 candidate loops.
+2020-10-30 15:27:01 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:27:01 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:27:11 cLoops2 INFO     Clustering chr4 and chr4 finished. Estimated 0 self-ligation reads and 42646 inter-ligation reads, 5984 candidate loops.
+2020-10-30 15:27:11 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:27:11 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:27:11 cLoops2 INFO     Clustering chr6 and chr6 finished. Estimated 0 self-ligation reads and 57630 inter-ligation reads, 7559 candidate loops.
+2020-10-30 15:27:12 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:27:12 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:27:13 cLoops2 INFO     Clustering chr7 and chr7 finished. Estimated 0 self-ligation reads and 44620 inter-ligation reads, 5917 candidate loops.
+2020-10-30 15:27:31 cLoops2 INFO     Clustering chr2 and chr2 finished. Estimated 589 self-ligation reads and 86979 inter-ligation reads, 8024 candidate loops.
+2020-10-30 15:27:32 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:27:32 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:27:33 cLoops2 INFO     Clustering chr1 and chr1 finished. Estimated 1324 self-ligation reads and 90374 inter-ligation reads, 8288 candidate loops.
+2020-10-30 15:27:33 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:27:33 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:27:34 cLoops2 INFO     Estimated inter-ligation and self-ligation distance cutoff > 993 for eps=200,minPts=5
+2020-10-30 15:27:35 cLoops2 INFO     Clustering chrY and chrY using eps 500, minPts 5,pre-set distance cutoff > 993
+2020-10-30 15:27:35 cLoops2 INFO     Clustering chr16 and chr16 using eps 500, minPts 5,pre-set distance cutoff > 993
+2020-10-30 15:27:35 cLoops2 INFO     Clustering chr21 and chr21 using eps 500, minPts 5,pre-set distance cutoff > 993
+2020-10-30 15:27:36 cLoops2 INFO     Clustering chr19 and chr19 using eps 500, minPts 5,pre-set distance cutoff > 993
+2020-10-30 15:27:36 cLoops2 INFO     Clustering chr20 and chr20 using eps 500, minPts 5,pre-set distance cutoff > 993
+2020-10-30 15:27:36 cLoops2 INFO     Clustering chr17 and chr17 using eps 500, minPts 5,pre-set distance cutoff > 993
+2020-10-30 15:27:36 cLoops2 INFO     Clustering chr15 and chr15 using eps 500, minPts 5,pre-set distance cutoff > 993
+2020-10-30 15:27:36 cLoops2 INFO     Clustering chr14 and chr14 using eps 500, minPts 5,pre-set distance cutoff > 993
+2020-10-30 15:27:36 cLoops2 INFO     Clustering chr9 and chr9 using eps 500, minPts 5,pre-set distance cutoff > 993
+2020-10-30 15:27:36 cLoops2 INFO     Clustering chr11 and chr11 using eps 500, minPts 5,pre-set distance cutoff > 993
+2020-10-30 15:27:36 cLoops2 INFO     Clustering chrX and chrX using eps 500, minPts 5,pre-set distance cutoff > 993
+2020-10-30 15:27:36 cLoops2 INFO     Clustering chr10 and chr10 using eps 500, minPts 5,pre-set distance cutoff > 993
+2020-10-30 15:27:36 cLoops2 INFO     Clustering chr13 and chr13 using eps 500, minPts 5,pre-set distance cutoff > 993
+2020-10-30 15:27:36 cLoops2 INFO     Clustering chr8 and chr8 using eps 500, minPts 5,pre-set distance cutoff > 993
+2020-10-30 15:27:36 cLoops2 INFO     Clustering chr3 and chr3 using eps 500, minPts 5,pre-set distance cutoff > 993
+2020-10-30 15:27:37 cLoops2 INFO     Clustering chr2 and chr2 using eps 500, minPts 5,pre-set distance cutoff > 993
+2020-10-30 15:27:37 cLoops2 INFO     Clustering chrY and chrY finished. Estimated 129 self-ligation reads and 628 inter-ligation reads, 78 candidate loops.
+2020-10-30 15:27:37 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:27:37 cLoops2 INFO     Clustering chr6 and chr6 using eps 500, minPts 5,pre-set distance cutoff > 993
+2020-10-30 15:27:37 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:27:37 cLoops2 INFO     Clustering chr1 and chr1 using eps 500, minPts 5,pre-set distance cutoff > 993
+2020-10-30 15:27:37 cLoops2 INFO     Clustering chr22 and chr22 using eps 500, minPts 5,pre-set distance cutoff > 993
+2020-10-30 15:27:37 cLoops2 INFO     Clustering chr5 and chr5 using eps 500, minPts 5,pre-set distance cutoff > 993
+2020-10-30 15:27:37 cLoops2 INFO     Clustering chr4 and chr4 using eps 500, minPts 5,pre-set distance cutoff > 993
+2020-10-30 15:27:44 cLoops2 INFO     Clustering chr5 and chr5 finished. Estimated 68 self-ligation reads and 54045 inter-ligation reads, 6997 candidate loops.
+2020-10-30 15:27:44 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:27:44 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:28:04 cLoops2 INFO     Clustering chr1 and chr1 finished. Estimated 0 self-ligation reads and 79613 inter-ligation reads, 9929 candidate loops.
+2020-10-30 15:28:04 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:28:04 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:28:04 cLoops2 INFO     Clustering chr22 and chr22 finished. Estimated 6750 self-ligation reads and 22363 inter-ligation reads, 2084 candidate loops.
+2020-10-30 15:28:06 cLoops2 INFO     Clustering chr12 and chr12 using eps 500, minPts 5,pre-set distance cutoff > 993
+2020-10-30 15:28:11 cLoops2 INFO     Clustering chr3 and chr3 finished. Estimated 0 self-ligation reads and 59748 inter-ligation reads, 8032 candidate loops.
+2020-10-30 15:28:11 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:28:11 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:28:13 cLoops2 INFO     Clustering chr2 and chr2 finished. Estimated 66 self-ligation reads and 78466 inter-ligation reads, 10245 candidate loops.
+2020-10-30 15:28:13 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:28:13 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:28:13 cLoops2 INFO     Clustering chr21 and chr21 finished. Estimated 6753 self-ligation reads and 29384 inter-ligation reads, 3248 candidate loops.
+2020-10-30 15:28:13 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:28:13 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:28:14 cLoops2 INFO     Clustering chr19 and chr19 finished. Estimated 4785 self-ligation reads and 38806 inter-ligation reads, 3408 candidate loops.
+2020-10-30 15:28:14 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:28:14 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:28:14 cLoops2 INFO     Estimated inter-ligation and self-ligation distance cutoff > 949 for eps=200,minPts=5
+2020-10-30 15:28:15 cLoops2 INFO     Clustering chr7 and chr7 using eps 500, minPts 5,pre-set distance cutoff > 993
+2020-10-30 15:28:15 cLoops2 INFO     Clustering chr18 and chr18 using eps 500, minPts 5,pre-set distance cutoff > 993
+2020-10-30 15:28:15 cLoops2 INFO     Clustering chrY and chrY using eps 500, minPts 5,pre-set distance cutoff > 949
+2020-10-30 15:28:15 cLoops2 INFO     Clustering chr21 and chr21 using eps 500, minPts 5,pre-set distance cutoff > 949
+2020-10-30 15:28:16 cLoops2 INFO     Clustering chr19 and chr19 using eps 500, minPts 5,pre-set distance cutoff > 949
+2020-10-30 15:28:16 cLoops2 INFO     Clustering chr16 and chr16 using eps 500, minPts 5,pre-set distance cutoff > 949
+2020-10-30 15:28:16 cLoops2 INFO     Clustering chr20 and chr20 using eps 500, minPts 5,pre-set distance cutoff > 949
+2020-10-30 15:28:16 cLoops2 INFO     Clustering chr17 and chr17 using eps 500, minPts 5,pre-set distance cutoff > 949
+2020-10-30 15:28:16 cLoops2 INFO     Clustering chr13 and chr13 using eps 500, minPts 5,pre-set distance cutoff > 949
+2020-10-30 15:28:16 cLoops2 INFO     Clustering chr15 and chr15 using eps 500, minPts 5,pre-set distance cutoff > 949
+2020-10-30 15:28:16 cLoops2 INFO     Clustering chr9 and chr9 using eps 500, minPts 5,pre-set distance cutoff > 949
+2020-10-30 15:28:16 cLoops2 INFO     Clustering chr14 and chr14 using eps 500, minPts 5,pre-set distance cutoff > 949
+2020-10-30 15:28:16 cLoops2 INFO     Clustering chrX and chrX using eps 500, minPts 5,pre-set distance cutoff > 949
+2020-10-30 15:28:16 cLoops2 INFO     Clustering chr8 and chr8 using eps 500, minPts 5,pre-set distance cutoff > 949
+2020-10-30 15:28:16 cLoops2 INFO     Clustering chr10 and chr10 using eps 500, minPts 5,pre-set distance cutoff > 949
+2020-10-30 15:28:17 cLoops2 INFO     Clustering chr11 and chr11 using eps 500, minPts 5,pre-set distance cutoff > 949
+2020-10-30 15:28:17 cLoops2 INFO     Clustering chr4 and chr4 using eps 500, minPts 5,pre-set distance cutoff > 949
+2020-10-30 15:28:17 cLoops2 INFO     Clustering chr6 and chr6 using eps 500, minPts 5,pre-set distance cutoff > 949
+2020-10-30 15:28:17 cLoops2 INFO     Clustering chr1 and chr1 using eps 500, minPts 5,pre-set distance cutoff > 949
+2020-10-30 15:28:17 cLoops2 INFO     Clustering chr5 and chr5 using eps 500, minPts 5,pre-set distance cutoff > 949
+2020-10-30 15:28:18 cLoops2 INFO     Clustering chr3 and chr3 using eps 500, minPts 5,pre-set distance cutoff > 949
+2020-10-30 15:28:18 cLoops2 INFO     Clustering chrY and chrY finished. Estimated 0 self-ligation reads and 938 inter-ligation reads, 145 candidate loops.
+2020-10-30 15:28:18 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:28:18 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:28:18 cLoops2 INFO     Clustering chr22 and chr22 using eps 500, minPts 5,pre-set distance cutoff > 949
+2020-10-30 15:28:18 cLoops2 INFO     Clustering chr2 and chr2 using eps 500, minPts 5,pre-set distance cutoff > 949
+2020-10-30 15:28:29 cLoops2 INFO     Clustering chr16 and chr16 finished. Estimated 7990 self-ligation reads and 46056 inter-ligation reads, 4570 candidate loops.
+2020-10-30 15:28:29 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:28:29 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:28:33 cLoops2 INFO     Clustering chr20 and chr20 finished. Estimated 8876 self-ligation reads and 42123 inter-ligation reads, 4229 candidate loops.
+2020-10-30 15:28:33 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:28:33 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:28:48 cLoops2 INFO     Clustering chrX and chrX finished. Estimated 6918 self-ligation reads and 45396 inter-ligation reads, 5161 candidate loops.
+2020-10-30 15:28:48 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:28:48 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:28:52 cLoops2 INFO     Clustering chr15 and chr15 finished. Estimated 16775 self-ligation reads and 58775 inter-ligation reads, 6098 candidate loops.
+2020-10-30 15:28:53 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:28:53 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:28:53 cLoops2 INFO     Clustering chr17 and chr17 finished. Estimated 16174 self-ligation reads and 66953 inter-ligation reads, 6361 candidate loops.
+2020-10-30 15:28:54 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:28:54 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:28:59 cLoops2 INFO     Clustering chr22 and chr22 finished. Estimated 6140 self-ligation reads and 30579 inter-ligation reads, 3559 candidate loops.
+2020-10-30 15:29:00 cLoops2 INFO     Clustering chr12 and chr12 using eps 500, minPts 5,pre-set distance cutoff > 949
+2020-10-30 15:29:16 cLoops2 INFO     Clustering chr14 and chr14 finished. Estimated 28054 self-ligation reads and 78162 inter-ligation reads, 8228 candidate loops.
+2020-10-30 15:29:16 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:29:16 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:29:17 cLoops2 INFO     Clustering chr19 and chr19 finished. Estimated 5180 self-ligation reads and 47589 inter-ligation reads, 5214 candidate loops.
+2020-10-30 15:29:17 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:29:17 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:29:19 cLoops2 INFO     Clustering chr7 and chr7 using eps 500, minPts 5,pre-set distance cutoff > 949
+2020-10-30 15:29:25 cLoops2 INFO     Clustering chr21 and chr21 finished. Estimated 6915 self-ligation reads and 51299 inter-ligation reads, 6487 candidate loops.
+2020-10-30 15:29:25 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:29:25 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:29:26 cLoops2 INFO     Clustering chr18 and chr18 using eps 500, minPts 5,pre-set distance cutoff > 949
+2020-10-30 15:29:30 cLoops2 INFO     Clustering chr13 and chr13 finished. Estimated 21852 self-ligation reads and 78956 inter-ligation reads, 9466 candidate loops.
+2020-10-30 15:29:30 cLoops2 INFO     Clustering chr9 and chr9 finished. Estimated 17189 self-ligation reads and 83064 inter-ligation reads, 9407 candidate loops.
+2020-10-30 15:29:30 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:29:30 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:29:30 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:29:30 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:29:45 cLoops2 INFO     Clustering chr20 and chr20 finished. Estimated 7741 self-ligation reads and 67436 inter-ligation reads, 8239 candidate loops.
+2020-10-30 15:29:45 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:29:45 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:29:45 cLoops2 INFO     Clustering chr18 and chr18 finished. Estimated 13088 self-ligation reads and 53981 inter-ligation reads, 6482 candidate loops.
+2020-10-30 15:29:54 cLoops2 INFO     Clustering chr8 and chr8 finished. Estimated 24025 self-ligation reads and 102852 inter-ligation reads, 11986 candidate loops.
+2020-10-30 15:29:54 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:29:54 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:29:58 cLoops2 INFO     Clustering chr11 and chr11 finished. Estimated 27819 self-ligation reads and 103045 inter-ligation reads, 11266 candidate loops.
+2020-10-30 15:29:59 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:29:59 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:30:13 cLoops2 INFO     Clustering chr10 and chr10 finished. Estimated 28576 self-ligation reads and 111709 inter-ligation reads, 12071 candidate loops.
+2020-10-30 15:30:13 cLoops2 INFO     Clustering chr17 and chr17 finished. Estimated 14315 self-ligation reads and 89911 inter-ligation reads, 10484 candidate loops.
+2020-10-30 15:30:13 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:30:13 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:30:13 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:30:13 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:30:14 cLoops2 INFO     Clustering chr16 and chr16 finished. Estimated 8909 self-ligation reads and 78147 inter-ligation reads, 9411 candidate loops.
+2020-10-30 15:30:14 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:30:14 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:30:28 cLoops2 INFO     Clustering chrX and chrX finished. Estimated 3383 self-ligation reads and 74458 inter-ligation reads, 10390 candidate loops.
+2020-10-30 15:30:28 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:30:28 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:30:43 cLoops2 INFO     Clustering chr12 and chr12 finished. Estimated 35152 self-ligation reads and 122516 inter-ligation reads, 13360 candidate loops.
+2020-10-30 15:30:56 cLoops2 INFO     Clustering chr15 and chr15 finished. Estimated 13921 self-ligation reads and 90876 inter-ligation reads, 11209 candidate loops.
+2020-10-30 15:30:56 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:30:56 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:31:06 cLoops2 INFO     Clustering chr7 and chr7 finished. Estimated 29316 self-ligation reads and 120528 inter-ligation reads, 13935 candidate loops.
+2020-10-30 15:31:11 cLoops2 INFO     Clustering chr6 and chr6 finished. Estimated 46208 self-ligation reads and 161606 inter-ligation reads, 17817 candidate loops.
+2020-10-30 15:31:11 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:31:11 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:31:13 cLoops2 INFO     Clustering chr5 and chr5 finished. Estimated 42594 self-ligation reads and 148168 inter-ligation reads, 17071 candidate loops.
+2020-10-30 15:31:14 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:31:14 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:31:15 cLoops2 INFO     Clustering chr4 and chr4 finished. Estimated 29052 self-ligation reads and 141813 inter-ligation reads, 17305 candidate loops.
+2020-10-30 15:31:15 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:31:15 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:31:16 cLoops2 INFO     Clustering chr14 and chr14 finished. Estimated 20878 self-ligation reads and 126870 inter-ligation reads, 15554 candidate loops.
+2020-10-30 15:31:17 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:31:17 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:32:09 cLoops2 INFO     Clustering chr1 and chr1 finished. Estimated 56610 self-ligation reads and 207705 inter-ligation reads, 22003 candidate loops.
+2020-10-30 15:32:10 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:32:10 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:32:10 cLoops2 INFO     Clustering chr9 and chr9 finished. Estimated 14770 self-ligation reads and 152597 inter-ligation reads, 19440 candidate loops.
+2020-10-30 15:32:11 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:32:11 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:32:17 cLoops2 INFO     Clustering chr18 and chr18 finished. Estimated 9521 self-ligation reads and 110176 inter-ligation reads, 14332 candidate loops.
+2020-10-30 15:32:19 cLoops2 INFO     Clustering chr3 and chr3 finished. Estimated 44164 self-ligation reads and 175073 inter-ligation reads, 19926 candidate loops.
+2020-10-30 15:32:20 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:32:20 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:32:49 cLoops2 INFO     Clustering chr13 and chr13 finished. Estimated 15313 self-ligation reads and 152410 inter-ligation reads, 19869 candidate loops.
+2020-10-30 15:32:49 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:32:49 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:33:10 cLoops2 INFO     Clustering chr11 and chr11 finished. Estimated 21346 self-ligation reads and 178280 inter-ligation reads, 22463 candidate loops.
+2020-10-30 15:33:11 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:33:11 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:33:16 cLoops2 INFO     Clustering chr10 and chr10 finished. Estimated 23890 self-ligation reads and 192964 inter-ligation reads, 24149 candidate loops.
+2020-10-30 15:33:17 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:33:17 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:33:17 cLoops2 INFO     Clustering chr8 and chr8 finished. Estimated 18042 self-ligation reads and 205434 inter-ligation reads, 26360 candidate loops.
+2020-10-30 15:33:18 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:33:18 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:34:02 cLoops2 INFO     Clustering chr2 and chr2 finished. Estimated 61323 self-ligation reads and 218953 inter-ligation reads, 24226 candidate loops.
+2020-10-30 15:34:03 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:34:03 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:34:06 cLoops2 INFO     Clustering chr12 and chr12 finished. Estimated 23876 self-ligation reads and 211235 inter-ligation reads, 26146 candidate loops.
+2020-10-30 15:34:07 cLoops2 INFO     Estimated inter-ligation and self-ligation distance cutoff > 964 for eps=500,minPts=5
+2020-10-30 15:34:09 cLoops2 INFO     Clustering chrY and chrY using eps 1000, minPts 5,pre-set distance cutoff > 964
+2020-10-30 15:34:10 cLoops2 INFO     Clustering chr21 and chr21 using eps 1000, minPts 5,pre-set distance cutoff > 964
+2020-10-30 15:34:10 cLoops2 INFO     Clustering chrX and chrX using eps 1000, minPts 5,pre-set distance cutoff > 964
+2020-10-30 15:34:10 cLoops2 INFO     Clustering chr20 and chr20 using eps 1000, minPts 5,pre-set distance cutoff > 964
+2020-10-30 15:34:10 cLoops2 INFO     Clustering chr16 and chr16 using eps 1000, minPts 5,pre-set distance cutoff > 964
+2020-10-30 15:34:10 cLoops2 INFO     Clustering chr19 and chr19 using eps 1000, minPts 5,pre-set distance cutoff > 964
+2020-10-30 15:34:10 cLoops2 INFO     Clustering chr8 and chr8 using eps 1000, minPts 5,pre-set distance cutoff > 964
+2020-10-30 15:34:10 cLoops2 INFO     Clustering chr17 and chr17 using eps 1000, minPts 5,pre-set distance cutoff > 964
+2020-10-30 15:34:10 cLoops2 INFO     Clustering chr15 and chr15 using eps 1000, minPts 5,pre-set distance cutoff > 964
+2020-10-30 15:34:10 cLoops2 INFO     Clustering chr13 and chr13 using eps 1000, minPts 5,pre-set distance cutoff > 964
+2020-10-30 15:34:10 cLoops2 INFO     Clustering chr14 and chr14 using eps 1000, minPts 5,pre-set distance cutoff > 964
+2020-10-30 15:34:11 cLoops2 INFO     Clustering chr4 and chr4 using eps 1000, minPts 5,pre-set distance cutoff > 964
+2020-10-30 15:34:11 cLoops2 INFO     Clustering chr11 and chr11 using eps 1000, minPts 5,pre-set distance cutoff > 964
+2020-10-30 15:34:11 cLoops2 INFO     Clustering chr9 and chr9 using eps 1000, minPts 5,pre-set distance cutoff > 964
+2020-10-30 15:34:11 cLoops2 INFO     Clustering chr10 and chr10 using eps 1000, minPts 5,pre-set distance cutoff > 964
+2020-10-30 15:34:11 cLoops2 INFO     Clustering chr1 and chr1 using eps 1000, minPts 5,pre-set distance cutoff > 964
+2020-10-30 15:34:12 cLoops2 INFO     Clustering chr6 and chr6 using eps 1000, minPts 5,pre-set distance cutoff > 964
+2020-10-30 15:34:12 cLoops2 INFO     Clustering chr3 and chr3 using eps 1000, minPts 5,pre-set distance cutoff > 964
+2020-10-30 15:34:12 cLoops2 INFO     Clustering chrY and chrY finished. Estimated 863 self-ligation reads and 1264 inter-ligation reads, 184 candidate loops.
+2020-10-30 15:34:12 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:34:12 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:34:12 cLoops2 INFO     Clustering chr5 and chr5 using eps 1000, minPts 5,pre-set distance cutoff > 964
+2020-10-30 15:34:12 cLoops2 INFO     Clustering chr22 and chr22 using eps 1000, minPts 5,pre-set distance cutoff > 964
+2020-10-30 15:34:12 cLoops2 INFO     Clustering chr2 and chr2 using eps 1000, minPts 5,pre-set distance cutoff > 964
+2020-10-30 15:34:24 cLoops2 INFO     Clustering chr7 and chr7 finished. Estimated 26854 self-ligation reads and 229959 inter-ligation reads, 29461 candidate loops.
+2020-10-30 15:34:47 cLoops2 INFO     Clustering chr6 and chr6 finished. Estimated 34505 self-ligation reads and 282437 inter-ligation reads, 35292 candidate loops.
+2020-10-30 15:34:48 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:34:48 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:34:48 cLoops2 INFO     Clustering chr22 and chr22 finished. Estimated 32167 self-ligation reads and 21967 inter-ligation reads, 2636 candidate loops.
+2020-10-30 15:34:50 cLoops2 INFO     Clustering chr12 and chr12 using eps 1000, minPts 5,pre-set distance cutoff > 964
+2020-10-30 15:35:04 cLoops2 INFO     Clustering chr4 and chr4 finished. Estimated 23375 self-ligation reads and 274833 inter-ligation reads, 36668 candidate loops.
+2020-10-30 15:35:04 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:35:04 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:35:06 cLoops2 INFO     Clustering chr19 and chr19 finished. Estimated 38247 self-ligation reads and 39449 inter-ligation reads, 4375 candidate loops.
+2020-10-30 15:35:06 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:35:06 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:35:08 cLoops2 INFO     Clustering chr7 and chr7 using eps 1000, minPts 5,pre-set distance cutoff > 964
+2020-10-30 15:35:28 cLoops2 INFO     Clustering chr21 and chr21 finished. Estimated 56961 self-ligation reads and 35208 inter-ligation reads, 4549 candidate loops.
+2020-10-30 15:35:28 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:35:28 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:35:29 cLoops2 INFO     Clustering chr18 and chr18 using eps 1000, minPts 5,pre-set distance cutoff > 964
+2020-10-30 15:35:45 cLoops2 INFO     Clustering chr20 and chr20 finished. Estimated 69732 self-ligation reads and 46775 inter-ligation reads, 6089 candidate loops.
+2020-10-30 15:35:46 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:35:46 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:35:50 cLoops2 INFO     Clustering chr5 and chr5 finished. Estimated 31896 self-ligation reads and 273385 inter-ligation reads, 35059 candidate loops.
+2020-10-30 15:35:51 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:35:51 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:36:02 cLoops2 INFO     Clustering chr16 and chr16 finished. Estimated 70067 self-ligation reads and 54866 inter-ligation reads, 6923 candidate loops.
+2020-10-30 15:36:02 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:36:02 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:36:07 cLoops2 INFO     Clustering chr3 and chr3 finished. Estimated 36252 self-ligation reads and 309887 inter-ligation reads, 39607 candidate loops.
+2020-10-30 15:36:07 cLoops2 INFO     Clustering chr17 and chr17 finished. Estimated 101274 self-ligation reads and 64992 inter-ligation reads, 7920 candidate loops.
+2020-10-30 15:36:07 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:36:08 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:36:08 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:36:08 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:36:16 cLoops2 INFO     Clustering chr15 and chr15 finished. Estimated 107546 self-ligation reads and 66417 inter-ligation reads, 8576 candidate loops.
+2020-10-30 15:36:16 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:36:16 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:36:50 cLoops2 INFO     Clustering chrX and chrX finished. Estimated 77125 self-ligation reads and 87775 inter-ligation reads, 12389 candidate loops.
+2020-10-30 15:36:50 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:36:50 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:37:53 cLoops2 INFO     Clustering chr14 and chr14 finished. Estimated 156974 self-ligation reads and 89852 inter-ligation reads, 11504 candidate loops.
+2020-10-30 15:37:53 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:37:53 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:38:28 cLoops2 INFO     Clustering chr18 and chr18 finished. Estimated 111862 self-ligation reads and 78098 inter-ligation reads, 10457 candidate loops.
+2020-10-30 15:38:42 cLoops2 INFO     Clustering chr9 and chr9 finished. Estimated 156401 self-ligation reads and 109277 inter-ligation reads, 14286 candidate loops.
+2020-10-30 15:38:42 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:38:42 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:38:56 cLoops2 INFO     Clustering chr1 and chr1 finished. Estimated 43263 self-ligation reads and 325127 inter-ligation reads, 39947 candidate loops.
+2020-10-30 15:38:57 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:38:57 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:38:58 cLoops2 INFO     Clustering chr2 and chr2 finished. Estimated 48982 self-ligation reads and 384185 inter-ligation reads, 48611 candidate loops.
+2020-10-30 15:38:59 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:38:59 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:39:05 cLoops2 INFO     Estimated inter-ligation and self-ligation distance cutoff > 908 for eps=500,minPts=5
+2020-10-30 15:39:08 cLoops2 INFO     Clustering chr13 and chr13 finished. Estimated 179210 self-ligation reads and 107853 inter-ligation reads, 14221 candidate loops.
+2020-10-30 15:39:08 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:39:08 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:39:08 cLoops2 INFO     Clustering chrY and chrY using eps 1000, minPts 5,pre-set distance cutoff > 908
+2020-10-30 15:39:09 cLoops2 INFO     Clustering chr16 and chr16 using eps 1000, minPts 5,pre-set distance cutoff > 908
+2020-10-30 15:39:09 cLoops2 INFO     Clustering chr19 and chr19 using eps 1000, minPts 5,pre-set distance cutoff > 908
+2020-10-30 15:39:09 cLoops2 INFO     Clustering chr21 and chr21 using eps 1000, minPts 5,pre-set distance cutoff > 908
+2020-10-30 15:39:10 cLoops2 INFO     Clustering chr20 and chr20 using eps 1000, minPts 5,pre-set distance cutoff > 908
+2020-10-30 15:39:10 cLoops2 INFO     Clustering chr9 and chr9 using eps 1000, minPts 5,pre-set distance cutoff > 908
+2020-10-30 15:39:10 cLoops2 INFO     Clustering chr15 and chr15 using eps 1000, minPts 5,pre-set distance cutoff > 908
+2020-10-30 15:39:10 cLoops2 INFO     Clustering chr5 and chr5 using eps 1000, minPts 5,pre-set distance cutoff > 908
+2020-10-30 15:39:10 cLoops2 INFO     Clustering chr14 and chr14 using eps 1000, minPts 5,pre-set distance cutoff > 908
+2020-10-30 15:39:10 cLoops2 INFO     Clustering chr17 and chr17 using eps 1000, minPts 5,pre-set distance cutoff > 908
+2020-10-30 15:39:10 cLoops2 INFO     Clustering chr13 and chr13 using eps 1000, minPts 5,pre-set distance cutoff > 908
+2020-10-30 15:39:10 cLoops2 INFO     Clustering chr11 and chr11 using eps 1000, minPts 5,pre-set distance cutoff > 908
+2020-10-30 15:39:10 cLoops2 INFO     Clustering chrX and chrX using eps 1000, minPts 5,pre-set distance cutoff > 908
+2020-10-30 15:39:11 cLoops2 INFO     Clustering chr4 and chr4 using eps 1000, minPts 5,pre-set distance cutoff > 908
+2020-10-30 15:39:11 cLoops2 INFO     Clustering chr8 and chr8 using eps 1000, minPts 5,pre-set distance cutoff > 908
+2020-10-30 15:39:11 cLoops2 INFO     Clustering chr10 and chr10 using eps 1000, minPts 5,pre-set distance cutoff > 908
+2020-10-30 15:39:11 cLoops2 INFO     Clustering chr1 and chr1 using eps 1000, minPts 5,pre-set distance cutoff > 908
+2020-10-30 15:39:11 cLoops2 INFO     Clustering chr6 and chr6 using eps 1000, minPts 5,pre-set distance cutoff > 908
+2020-10-30 15:39:12 cLoops2 INFO     Clustering chr3 and chr3 using eps 1000, minPts 5,pre-set distance cutoff > 908
+2020-10-30 15:39:12 cLoops2 INFO     Clustering chr2 and chr2 using eps 1000, minPts 5,pre-set distance cutoff > 908
+2020-10-30 15:39:13 cLoops2 INFO     Clustering chrY and chrY finished. Estimated 736 self-ligation reads and 2515 inter-ligation reads, 388 candidate loops.
+2020-10-30 15:39:13 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:39:13 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:39:13 cLoops2 INFO     Clustering chr22 and chr22 using eps 1000, minPts 5,pre-set distance cutoff > 908
+2020-10-30 15:39:28 cLoops2 INFO     Clustering chr10 and chr10 finished. Estimated 218515 self-ligation reads and 127208 inter-ligation reads, 16633 candidate loops.
+2020-10-30 15:39:28 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:39:28 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:39:29 cLoops2 INFO     Clustering chr11 and chr11 finished. Estimated 192898 self-ligation reads and 127979 inter-ligation reads, 16476 candidate loops.
+2020-10-30 15:39:30 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:39:30 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:39:53 cLoops2 INFO     Clustering chr12 and chr12 finished. Estimated 243617 self-ligation reads and 136629 inter-ligation reads, 17476 candidate loops.
+2020-10-30 15:40:21 cLoops2 INFO     Clustering chr7 and chr7 finished. Estimated 245356 self-ligation reads and 152452 inter-ligation reads, 19941 candidate loops.
+2020-10-30 15:40:23 cLoops2 INFO     Clustering chr8 and chr8 finished. Estimated 218209 self-ligation reads and 138591 inter-ligation reads, 18461 candidate loops.
+2020-10-30 15:40:24 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:40:24 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:40:38 cLoops2 INFO     Clustering chr22 and chr22 finished. Estimated 51290 self-ligation reads and 34511 inter-ligation reads, 4401 candidate loops.
+2020-10-30 15:40:41 cLoops2 INFO     Clustering chr12 and chr12 using eps 1000, minPts 5,pre-set distance cutoff > 908
+2020-10-30 15:40:57 cLoops2 INFO     Clustering chr21 and chr21 finished. Estimated 106152 self-ligation reads and 46944 inter-ligation reads, 5895 candidate loops.
+2020-10-30 15:40:57 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:40:57 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:41:01 cLoops2 INFO     Clustering chr7 and chr7 using eps 1000, minPts 5,pre-set distance cutoff > 908
+2020-10-30 15:41:16 cLoops2 INFO     Clustering chr19 and chr19 finished. Estimated 60923 self-ligation reads and 58270 inter-ligation reads, 7248 candidate loops.
+2020-10-30 15:41:16 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:41:16 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:41:18 cLoops2 INFO     Clustering chr18 and chr18 using eps 1000, minPts 5,pre-set distance cutoff > 908
+2020-10-30 15:41:47 cLoops2 INFO     Clustering chr4 and chr4 finished. Estimated 313910 self-ligation reads and 201641 inter-ligation reads, 27009 candidate loops.
+2020-10-30 15:41:49 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:41:49 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:42:11 cLoops2 INFO     Clustering chr3 and chr3 finished. Estimated 363333 self-ligation reads and 209817 inter-ligation reads, 27632 candidate loops.
+2020-10-30 15:42:11 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:42:11 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:42:16 cLoops2 INFO     Clustering chr16 and chr16 finished. Estimated 138967 self-ligation reads and 88312 inter-ligation reads, 11142 candidate loops.
+2020-10-30 15:42:17 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:42:17 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:42:19 cLoops2 INFO     Clustering chr20 and chr20 finished. Estimated 122513 self-ligation reads and 79881 inter-ligation reads, 10280 candidate loops.
+2020-10-30 15:42:19 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:42:19 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:42:26 cLoops2 INFO     Clustering chr6 and chr6 finished. Estimated 322696 self-ligation reads and 190542 inter-ligation reads, 24465 candidate loops.
+2020-10-30 15:42:26 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:42:26 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:42:27 cLoops2 INFO     Clustering chr5 and chr5 finished. Estimated 306870 self-ligation reads and 191514 inter-ligation reads, 24978 candidate loops.
+2020-10-30 15:42:28 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:42:28 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:42:32 cLoops2 INFO     Clustering chr1 and chr1 finished. Estimated 392772 self-ligation reads and 221030 inter-ligation reads, 28115 candidate loops.
+2020-10-30 15:42:32 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:42:32 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:42:47 cLoops2 INFO     Clustering chr17 and chr17 finished. Estimated 155578 self-ligation reads and 93492 inter-ligation reads, 11667 candidate loops.
+2020-10-30 15:42:47 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:42:47 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:43:16 cLoops2 INFO     Clustering chr15 and chr15 finished. Estimated 170826 self-ligation reads and 102247 inter-ligation reads, 13133 candidate loops.
+2020-10-30 15:43:16 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:43:16 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:43:36 cLoops2 INFO     Clustering chr2 and chr2 finished. Estimated 443385 self-ligation reads and 255244 inter-ligation reads, 33228 candidate loops.
+2020-10-30 15:43:37 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:43:37 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:43:45 cLoops2 INFO     Estimated inter-ligation and self-ligation distance cutoff > 878 for eps=1000,minPts=5
+2020-10-30 15:43:48 cLoops2 INFO     Estimating loop statstical significance.
+2020-10-30 15:43:58 cLoops2 INFO     Estimate significance for 16444 candidate interactions in chr17-chr17 with 419724 PETs distance > =878 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-10-30 15:43:59 cLoops2 INFO     Estimate significance for 12798 candidate interactions in chr16-chr16 with 352701 PETs distance > =878 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-10-30 15:44:00 cLoops2 INFO     Estimate significance for 22248 candidate interactions in chr14-chr14 with 607391 PETs distance > =878 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-10-30 15:44:08 cLoops2 INFO     Estimate significance for 11530 candidate interactions in chr20-chr20 with 319467 PETs distance > =878 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-10-30 15:44:08 cLoops2 INFO     Estimate significance for 30501 candidate interactions in chr11-chr11 with 851102 PETs distance > =878 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-10-30 15:44:09 cLoops2 INFO     Estimate significance for 8470 candidate interactions in chr21-chr21 with 218369 PETs distance > =878 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-10-30 15:44:13 cLoops2 INFO     Estimate significance for 262 candidate interactions in chrY-chrY with 17150 PETs distance > =878 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-10-30 15:44:15 cLoops2 INFO     Estimate significance for 31660 candidate interactions in chr10-chr10 with 898463 PETs distance > =878 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-10-30 15:44:21 cLoops2 INFO     Estimate significance for 8966 candidate interactions in chr19-chr19 with 235596 PETs distance > =878 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-10-30 15:44:21 cLoops2 INFO     Estimate significance for 32722 candidate interactions in chr8-chr8 with 943063 PETs distance > =878 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-10-30 15:44:22 cLoops2 INFO     Estimate significance for 16462 candidate interactions in chr15-chr15 with 453082 PETs distance > =878 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-10-30 15:44:22 cLoops2 INFO     Estimate significance for 5522 candidate interactions in chr22-chr22 with 145544 PETs distance > =878 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-10-30 15:44:31 cLoops2 INFO     Estimate significance for 63185 candidate interactions in chr2-chr2 with 1854964 PETs distance > =878 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-10-30 15:44:38 cLoops2 INFO     Estimate significance for 18434 candidate interactions in chrX-chrX with 657451 PETs distance > =878 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-10-30 15:44:38 cLoops2 INFO     Estimate significance for 25464 candidate interactions in chr13-chr13 with 720602 PETs distance > =878 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-10-30 15:44:40 cLoops2 INFO     Estimate significance for 56087 candidate interactions in chr1-chr1 with 1606810 PETs distance > =878 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-10-30 15:44:48 cLoops2 INFO     Estimate significance for 25538 candidate interactions in chr9-chr9 with 702749 PETs distance > =878 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-10-30 15:44:57 cLoops2 INFO     Estimate significance for 46850 candidate interactions in chr4-chr4 with 1385652 PETs distance > =878 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-10-30 15:44:57 cLoops2 INFO     Estimate significance for 51814 candidate interactions in chr3-chr3 with 1516313 PETs distance > =878 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-10-30 15:45:00 cLoops2 INFO     Clustering chrX and chrX finished. Estimated 140184 self-ligation reads and 153283 inter-ligation reads, 21130 candidate loops.
+2020-10-30 15:45:01 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:45:01 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:45:10 cLoops2 INFO     Estimate significance for 45651 candidate interactions in chr5-chr5 with 1320057 PETs distance > =878 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-10-30 15:45:12 cLoops2 INFO     Estimate significance for 46661 candidate interactions in chr6-chr6 with 1306617 PETs distance > =878 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-10-30 15:46:33 cLoops2 INFO     Clustering chr14 and chr14 finished. Estimated 258227 self-ligation reads and 122334 inter-ligation reads, 15366 candidate loops.
+2020-10-30 15:46:34 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:46:34 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:47:30 cLoops2 INFO     Clustering chr18 and chr18 finished. Estimated 235895 self-ligation reads and 105444 inter-ligation reads, 13219 candidate loops.
+2020-10-30 15:48:51 cLoops2 INFO     Clustering chr13 and chr13 finished. Estimated 326654 self-ligation reads and 140697 inter-ligation reads, 17672 candidate loops.
+2020-10-30 15:48:53 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:48:53 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:49:06 cLoops2 INFO     Clustering chr11 and chr11 finished. Estimated 359850 self-ligation reads and 175947 inter-ligation reads, 22285 candidate loops.
+2020-10-30 15:49:07 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:49:07 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:49:15 cLoops2 INFO     Clustering chr9 and chr9 finished. Estimated 309280 self-ligation reads and 149387 inter-ligation reads, 18916 candidate loops.
+2020-10-30 15:49:16 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:49:16 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:51:01 cLoops2 INFO     Clustering chr10 and chr10 finished. Estimated 387550 self-ligation reads and 185623 inter-ligation reads, 23295 candidate loops.
+2020-10-30 15:51:03 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:51:03 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:51:10 cLoops2 INFO     Clustering chr8 and chr8 finished. Estimated 427609 self-ligation reads and 194355 inter-ligation reads, 24435 candidate loops.
+2020-10-30 15:51:12 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:51:12 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:52:24 cLoops2 INFO     Clustering chr12 and chr12 finished. Estimated 414612 self-ligation reads and 191969 inter-ligation reads, 23662 candidate loops.
+2020-10-30 15:54:21 cLoops2 INFO     Estimate significance for 34240 candidate interactions in chr12-chr12 with 964239 PETs distance > =878 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-10-30 15:56:21 cLoops2 INFO     Clustering chr6 and chr6 finished. Estimated 587592 self-ligation reads and 243394 inter-ligation reads, 30186 candidate loops.
+2020-10-30 15:56:23 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:56:23 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:57:00 cLoops2 INFO     Clustering chr5 and chr5 finished. Estimated 573743 self-ligation reads and 256609 inter-ligation reads, 31910 candidate loops.
+2020-10-30 15:57:02 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:57:02 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 15:59:13 cLoops2 INFO     Clustering chr4 and chr4 finished. Estimated 585395 self-ligation reads and 278410 inter-ligation reads, 34874 candidate loops.
+2020-10-30 15:59:16 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 15:59:16 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 16:00:26 cLoops2 INFO     Clustering chr3 and chr3 finished. Estimated 648607 self-ligation reads and 283526 inter-ligation reads, 35625 candidate loops.
+2020-10-30 16:00:29 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 16:00:29 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 16:02:42 cLoops2 INFO     Clustering chr1 and chr1 finished. Estimated 623994 self-ligation reads and 320923 inter-ligation reads, 39990 candidate loops.
+2020-10-30 16:02:44 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 16:02:44 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 16:07:02 cLoops2 INFO     Clustering chr7 and chr7 finished. Estimated 468515 self-ligation reads and 210683 inter-ligation reads, 26405 candidate loops.
+2020-10-30 16:09:36 cLoops2 INFO     Clustering chr2 and chr2 finished. Estimated 777033 self-ligation reads and 354117 inter-ligation reads, 44134 candidate loops.
+2020-10-30 16:09:39 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-10-30 16:09:39 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-10-30 16:10:12 cLoops2 INFO     Estimated inter-ligation and self-ligation distance cutoff > 840 for eps=1000,minPts=5
+2020-10-30 16:10:27 cLoops2 INFO     Estimating loop statstical significance.
+2020-10-30 16:11:02 cLoops2 INFO     Estimate significance for 23851 candidate interactions in chr17-chr17 with 578513 PETs distance > =840 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-10-30 16:11:08 cLoops2 INFO     Estimate significance for 32956 candidate interactions in chr14-chr14 with 845946 PETs distance > =840 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-10-30 16:11:13 cLoops2 INFO     Estimate significance for 21696 candidate interactions in chr16-chr16 with 541633 PETs distance > =840 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-10-30 16:11:14 cLoops2 INFO     Estimate significance for 13046 candidate interactions in chr21-chr21 with 322979 PETs distance > =840 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-10-30 16:11:15 cLoops2 INFO     Estimate significance for 19461 candidate interactions in chr20-chr20 with 475399 PETs distance > =840 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-10-30 16:11:18 cLoops2 INFO     Estimate significance for 36793 candidate interactions in chr7-chr7 with 1055601 PETs distance > =878 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-10-30 16:11:24 cLoops2 INFO     Estimate significance for 499 candidate interactions in chrY-chrY with 24733 PETs distance > =840 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-10-30 16:11:24 cLoops2 INFO     Estimate significance for 47188 candidate interactions in chr11-chr11 with 1240274 PETs distance > =840 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-10-30 16:11:34 cLoops2 INFO     Estimate significance for 49984 candidate interactions in chr10-chr10 with 1310460 PETs distance > =840 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-10-30 16:11:39 cLoops2 INFO     Estimate significance for 52925 candidate interactions in chr8-chr8 with 1412028 PETs distance > =840 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-10-30 16:11:39 cLoops2 INFO     Estimate significance for 25757 candidate interactions in chr15-chr15 with 637770 PETs distance > =840 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-10-30 16:11:41 cLoops2 INFO     Estimate significance for 13383 candidate interactions in chr19-chr19 with 332433 PETs distance > =840 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-10-30 16:11:59 cLoops2 INFO     Estimate significance for 39172 candidate interactions in chr13-chr13 with 1038577 PETs distance > =840 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-10-30 16:12:00 cLoops2 INFO     Estimate significance for 97643 candidate interactions in chr2-chr2 with 2647674 PETs distance > =840 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-10-30 16:12:05 cLoops2 INFO     Estimate significance for 8608 candidate interactions in chr22-chr22 with 209337 PETs distance > =840 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-10-30 16:12:25 cLoops2 INFO     Estimate significance for 40243 candidate interactions in chr9-chr9 with 1031909 PETs distance > =840 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-10-30 16:12:26 cLoops2 INFO     Estimate significance for 79056 candidate interactions in chr3-chr3 with 2162548 PETs distance > =840 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-10-30 16:12:33 cLoops2 INFO     Estimate significance for 85100 candidate interactions in chr1-chr1 with 2223068 PETs distance > =840 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-10-30 16:12:45 cLoops2 INFO     Estimate significance for 31494 candidate interactions in chrX-chrX with 943238 PETs distance > =840 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-10-30 16:12:45 cLoops2 INFO     Estimate significance for 73784 candidate interactions in chr4-chr4 with 2007495 PETs distance > =840 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-10-30 16:12:56 cLoops2 INFO     Estimate significance for 69484 candidate interactions in chr6-chr6 with 1874791 PETs distance > =840 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-10-30 16:13:02 cLoops2 INFO     Estimate significance for 70181 candidate interactions in chr5-chr5 with 1904247 PETs distance > =840 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-10-30 16:24:03 cLoops2 INFO     Estimate significance for 18092 candidate interactions in chr18-chr18 with 491038 PETs distance > =878 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-10-30 17:13:26 cLoops2 INFO     Estimate significance for 52718 candidate interactions in chr12-chr12 with 1379304 PETs distance > =840 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-10-30 18:15:57 cLoops2 INFO     Estimate significance for 58570 candidate interactions in chr7-chr7 with 1563751 PETs distance > =840 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-10-30 18:25:35 cLoops2 INFO     Estimate significance for 28659 candidate interactions in chr18-chr18 with 746100 PETs distance > =840 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-01 22:11:06 cLoops2 INFO     Command: cLoops2 callLoops -d ../activate_100m -eps 200,500,1000 -minPts 5 -p 15 -o activate -cut 1000 -mcut -1 -filter False -i False -j True -w True -hic False -max_cut False -trans False
+2020-11-01 22:11:06 cLoops2 INFO     Command: cLoops2 callLoops -d ../resting_100m -eps 200,500,1000 -minPts 5 -p 15 -o resting -cut 1000 -mcut -1 -filter False -i False -j True -w True -hic False -max_cut False -trans False
+2020-11-01 22:11:06 cLoops2 INFO     Clustering chr21 and chr21 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-11-01 22:11:06 cLoops2 INFO     Clustering chr21 and chr21 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-11-01 22:11:07 cLoops2 INFO     Clustering chr20 and chr20 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-11-01 22:11:07 cLoops2 INFO     Clustering chr20 and chr20 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-11-01 22:11:07 cLoops2 INFO     Clustering chr16 and chr16 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-11-01 22:11:07 cLoops2 INFO     Clustering chr17 and chr17 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-11-01 22:11:07 cLoops2 INFO     Clustering chr17 and chr17 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-11-01 22:11:07 cLoops2 INFO     Clustering chr16 and chr16 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-11-01 22:11:07 cLoops2 INFO     Clustering chr15 and chr15 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-11-01 22:11:07 cLoops2 INFO     Clustering chr15 and chr15 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-11-01 22:11:07 cLoops2 INFO     Clustering chr14 and chr14 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-11-01 22:11:07 cLoops2 INFO     Clustering chr14 and chr14 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-11-01 22:11:07 cLoops2 INFO     Clustering chrX and chrX using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-11-01 22:11:07 cLoops2 INFO     Clustering chr13 and chr13 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-11-01 22:11:07 cLoops2 INFO     Clustering chrX and chrX using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-11-01 22:11:08 cLoops2 INFO     Clustering chr13 and chr13 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-11-01 22:11:08 cLoops2 INFO     Clustering chr11 and chr11 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-11-01 22:11:08 cLoops2 INFO     Clustering chr11 and chr11 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-11-01 22:11:08 cLoops2 INFO     Clustering chr10 and chr10 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-11-01 22:11:08 cLoops2 INFO     Clustering chr10 and chr10 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-11-01 22:11:08 cLoops2 INFO     Clustering chr8 and chr8 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-11-01 22:11:08 cLoops2 INFO     Clustering chr8 and chr8 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-11-01 22:11:09 cLoops2 INFO     Clustering chr4 and chr4 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-11-01 22:11:09 cLoops2 INFO     Clustering chr3 and chr3 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-11-01 22:11:09 cLoops2 INFO     Clustering chr4 and chr4 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-11-01 22:11:09 cLoops2 INFO     Clustering chr1 and chr1 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-11-01 22:11:09 cLoops2 INFO     Clustering chr1 and chr1 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-11-01 22:11:09 cLoops2 INFO     Clustering chr3 and chr3 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-11-01 22:11:09 cLoops2 INFO     Clustering chr2 and chr2 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-11-01 22:11:09 cLoops2 INFO     Clustering chr2 and chr2 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-11-01 22:11:15 cLoops2 INFO     Clustering chr21 and chr21 finished. Estimated 147 self-ligation reads and 11382 inter-ligation reads, 991 candidate loops.
+2020-11-01 22:11:15 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:11:15 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:11:16 cLoops2 INFO     Clustering chr6 and chr6 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-11-01 22:11:19 cLoops2 INFO     Clustering chr21 and chr21 finished. Estimated 0 self-ligation reads and 10891 inter-ligation reads, 1357 candidate loops.
+2020-11-01 22:11:19 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:11:19 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:11:20 cLoops2 INFO     Clustering chr6 and chr6 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-11-01 22:11:21 cLoops2 INFO     Clustering chr20 and chr20 finished. Estimated 133 self-ligation reads and 18151 inter-ligation reads, 1765 candidate loops.
+2020-11-01 22:11:21 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:11:21 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:11:22 cLoops2 INFO     Clustering chr5 and chr5 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-11-01 22:11:25 cLoops2 INFO     Clustering chr16 and chr16 finished. Estimated 0 self-ligation reads and 20837 inter-ligation reads, 1990 candidate loops.
+2020-11-01 22:11:25 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:11:25 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:11:25 cLoops2 INFO     Clustering chr19 and chr19 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-11-01 22:11:27 cLoops2 INFO     Clustering chr20 and chr20 finished. Estimated 0 self-ligation reads and 17223 inter-ligation reads, 2226 candidate loops.
+2020-11-01 22:11:27 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:11:27 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:11:28 cLoops2 INFO     Clustering chr16 and chr16 finished. Estimated 0 self-ligation reads and 20799 inter-ligation reads, 2546 candidate loops.
+2020-11-01 22:11:28 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:11:28 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:11:28 cLoops2 INFO     Clustering chr5 and chr5 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-11-01 22:11:28 cLoops2 INFO     Clustering chr19 and chr19 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-11-01 22:11:28 cLoops2 INFO     Clustering chr15 and chr15 finished. Estimated 329 self-ligation reads and 27322 inter-ligation reads, 2473 candidate loops.
+2020-11-01 22:11:28 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:11:28 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:11:28 cLoops2 INFO     Clustering chrY and chrY using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-11-01 22:11:29 cLoops2 INFO     Clustering chrY and chrY finished. Estimated 0 self-ligation reads and 255 inter-ligation reads, 25 candidate loops.
+2020-11-01 22:11:29 cLoops2 INFO     Clustering chr9 and chr9 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-11-01 22:11:30 cLoops2 INFO     Clustering chrX and chrX finished. Estimated 0 self-ligation reads and 15830 inter-ligation reads, 1645 candidate loops.
+2020-11-01 22:11:30 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:11:30 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:11:30 cLoops2 INFO     Clustering chr22 and chr22 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-11-01 22:11:31 cLoops2 INFO     Clustering chr17 and chr17 finished. Estimated 210 self-ligation reads and 34406 inter-ligation reads, 3042 candidate loops.
+2020-11-01 22:11:31 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:11:31 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:11:32 cLoops2 INFO     Clustering chr12 and chr12 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-11-01 22:11:32 cLoops2 INFO     Clustering chr17 and chr17 finished. Estimated 0 self-ligation reads and 27308 inter-ligation reads, 3266 candidate loops.
+2020-11-01 22:11:32 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:11:32 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:11:32 cLoops2 INFO     Clustering chrY and chrY using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-11-01 22:11:32 cLoops2 INFO     Clustering chr15 and chr15 finished. Estimated 0 self-ligation reads and 24276 inter-ligation reads, 2974 candidate loops.
+2020-11-01 22:11:32 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:11:32 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:11:33 cLoops2 INFO     Clustering chrY and chrY finished. Estimated 0 self-ligation reads and 381 inter-ligation reads, 62 candidate loops.
+2020-11-01 22:11:33 cLoops2 INFO     Clustering chr22 and chr22 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-11-01 22:11:33 cLoops2 INFO     Clustering chr9 and chr9 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-11-01 22:11:35 cLoops2 INFO     Clustering chrX and chrX finished. Estimated 0 self-ligation reads and 13482 inter-ligation reads, 1909 candidate loops.
+2020-11-01 22:11:35 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:11:35 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:11:36 cLoops2 INFO     Clustering chr14 and chr14 finished. Estimated 240 self-ligation reads and 37969 inter-ligation reads, 3309 candidate loops.
+2020-11-01 22:11:36 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:11:36 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:11:36 cLoops2 INFO     Clustering chr12 and chr12 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-11-01 22:11:37 cLoops2 INFO     Clustering chr7 and chr7 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-11-01 22:11:37 cLoops2 INFO     Clustering chr19 and chr19 finished. Estimated 0 self-ligation reads and 20781 inter-ligation reads, 1892 candidate loops.
+2020-11-01 22:11:37 cLoops2 INFO     Clustering chr22 and chr22 finished. Estimated 0 self-ligation reads and 12963 inter-ligation reads, 1135 candidate loops.
+2020-11-01 22:11:38 cLoops2 INFO     Clustering chr18 and chr18 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-11-01 22:11:38 cLoops2 INFO     Clustering chr13 and chr13 finished. Estimated 0 self-ligation reads and 28610 inter-ligation reads, 2564 candidate loops.
+2020-11-01 22:11:38 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:11:38 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:11:40 cLoops2 INFO     Clustering chr14 and chr14 finished. Estimated 0 self-ligation reads and 32355 inter-ligation reads, 3823 candidate loops.
+2020-11-01 22:11:40 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:11:40 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:11:41 cLoops2 INFO     Clustering chr7 and chr7 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-11-01 22:11:41 cLoops2 INFO     Clustering chr22 and chr22 finished. Estimated 0 self-ligation reads and 10732 inter-ligation reads, 1258 candidate loops.
+2020-11-01 22:11:42 cLoops2 INFO     Clustering chr18 and chr18 using eps 200, minPts 5,pre-set distance cutoff > 1000
+2020-11-01 22:11:42 cLoops2 INFO     Clustering chr19 and chr19 finished. Estimated 0 self-ligation reads and 17732 inter-ligation reads, 2054 candidate loops.
+2020-11-01 22:11:43 cLoops2 INFO     Clustering chr8 and chr8 finished. Estimated 93 self-ligation reads and 35157 inter-ligation reads, 3392 candidate loops.
+2020-11-01 22:11:43 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:11:43 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:11:43 cLoops2 INFO     Clustering chr10 and chr10 finished. Estimated 329 self-ligation reads and 44522 inter-ligation reads, 4199 candidate loops.
+2020-11-01 22:11:43 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:11:43 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:11:44 cLoops2 INFO     Clustering chr13 and chr13 finished. Estimated 0 self-ligation reads and 25747 inter-ligation reads, 3506 candidate loops.
+2020-11-01 22:11:44 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:11:44 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:11:45 cLoops2 INFO     Clustering chr11 and chr11 finished. Estimated 0 self-ligation reads and 43667 inter-ligation reads, 4054 candidate loops.
+2020-11-01 22:11:45 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:11:45 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:11:52 cLoops2 INFO     Clustering chr11 and chr11 finished. Estimated 0 self-ligation reads and 39047 inter-ligation reads, 5037 candidate loops.
+2020-11-01 22:11:52 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:11:52 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:11:53 cLoops2 INFO     Clustering chr9 and chr9 finished. Estimated 109 self-ligation reads and 29132 inter-ligation reads, 2888 candidate loops.
+2020-11-01 22:11:55 cLoops2 INFO     Clustering chr18 and chr18 finished. Estimated 0 self-ligation reads and 18425 inter-ligation reads, 1830 candidate loops.
+2020-11-01 22:11:55 cLoops2 INFO     Clustering chr10 and chr10 finished. Estimated 0 self-ligation reads and 41819 inter-ligation reads, 5388 candidate loops.
+2020-11-01 22:11:55 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:11:55 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:11:56 cLoops2 INFO     Clustering chr8 and chr8 finished. Estimated 0 self-ligation reads and 37195 inter-ligation reads, 4988 candidate loops.
+2020-11-01 22:11:56 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:11:56 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:11:57 cLoops2 INFO     Clustering chr4 and chr4 finished. Estimated 574 self-ligation reads and 42642 inter-ligation reads, 4114 candidate loops.
+2020-11-01 22:11:57 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:11:57 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:12:03 cLoops2 INFO     Clustering chr18 and chr18 finished. Estimated 0 self-ligation reads and 18758 inter-ligation reads, 2561 candidate loops.
+2020-11-01 22:12:05 cLoops2 INFO     Clustering chr3 and chr3 finished. Estimated 182 self-ligation reads and 62576 inter-ligation reads, 6068 candidate loops.
+2020-11-01 22:12:05 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:12:05 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:12:05 cLoops2 INFO     Clustering chr9 and chr9 finished. Estimated 0 self-ligation reads and 30553 inter-ligation reads, 4078 candidate loops.
+2020-11-01 22:12:07 cLoops2 INFO     Clustering chr5 and chr5 finished. Estimated 295 self-ligation reads and 56867 inter-ligation reads, 5317 candidate loops.
+2020-11-01 22:12:08 cLoops2 INFO     Clustering chr6 and chr6 finished. Estimated 328 self-ligation reads and 64715 inter-ligation reads, 6049 candidate loops.
+2020-11-01 22:12:09 cLoops2 INFO     Clustering chr4 and chr4 finished. Estimated 0 self-ligation reads and 42646 inter-ligation reads, 5984 candidate loops.
+2020-11-01 22:12:09 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:12:09 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:12:10 cLoops2 INFO     Clustering chr12 and chr12 finished. Estimated 802 self-ligation reads and 51828 inter-ligation reads, 4715 candidate loops.
+2020-11-01 22:12:12 cLoops2 INFO     Clustering chr7 and chr7 finished. Estimated 0 self-ligation reads and 43249 inter-ligation reads, 4282 candidate loops.
+2020-11-01 22:12:14 cLoops2 INFO     Clustering chr1 and chr1 finished. Estimated 1324 self-ligation reads and 90374 inter-ligation reads, 8288 candidate loops.
+2020-11-01 22:12:14 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:12:14 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:12:17 cLoops2 INFO     Clustering chr6 and chr6 finished. Estimated 0 self-ligation reads and 57630 inter-ligation reads, 7559 candidate loops.
+2020-11-01 22:12:17 cLoops2 INFO     Clustering chr12 and chr12 finished. Estimated 136 self-ligation reads and 47144 inter-ligation reads, 5962 candidate loops.
+2020-11-01 22:12:17 cLoops2 INFO     Clustering chr2 and chr2 finished. Estimated 589 self-ligation reads and 86979 inter-ligation reads, 8024 candidate loops.
+2020-11-01 22:12:17 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:12:17 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:12:18 cLoops2 INFO     Estimated inter-ligation and self-ligation distance cutoff > 993 for eps=200,minPts=5
+2020-11-01 22:12:18 cLoops2 INFO     Clustering chr21 and chr21 using eps 500, minPts 5,pre-set distance cutoff > 993
+2020-11-01 22:12:18 cLoops2 INFO     Clustering chr16 and chr16 using eps 500, minPts 5,pre-set distance cutoff > 993
+2020-11-01 22:12:18 cLoops2 INFO     Clustering chr20 and chr20 using eps 500, minPts 5,pre-set distance cutoff > 993
+2020-11-01 22:12:18 cLoops2 INFO     Clustering chr15 and chr15 using eps 500, minPts 5,pre-set distance cutoff > 993
+2020-11-01 22:12:19 cLoops2 INFO     Clustering chr17 and chr17 using eps 500, minPts 5,pre-set distance cutoff > 993
+2020-11-01 22:12:19 cLoops2 INFO     Clustering chr14 and chr14 using eps 500, minPts 5,pre-set distance cutoff > 993
+2020-11-01 22:12:19 cLoops2 INFO     Clustering chr13 and chr13 using eps 500, minPts 5,pre-set distance cutoff > 993
+2020-11-01 22:12:19 cLoops2 INFO     Clustering chrX and chrX using eps 500, minPts 5,pre-set distance cutoff > 993
+2020-11-01 22:12:19 cLoops2 INFO     Clustering chr10 and chr10 using eps 500, minPts 5,pre-set distance cutoff > 993
+2020-11-01 22:12:19 cLoops2 INFO     Clustering chr11 and chr11 using eps 500, minPts 5,pre-set distance cutoff > 993
+2020-11-01 22:12:19 cLoops2 INFO     Clustering chr8 and chr8 using eps 500, minPts 5,pre-set distance cutoff > 993
+2020-11-01 22:12:19 cLoops2 INFO     Clustering chr3 and chr3 using eps 500, minPts 5,pre-set distance cutoff > 993
+2020-11-01 22:12:19 cLoops2 INFO     Clustering chr1 and chr1 using eps 500, minPts 5,pre-set distance cutoff > 993
+2020-11-01 22:12:19 cLoops2 INFO     Clustering chr2 and chr2 using eps 500, minPts 5,pre-set distance cutoff > 993
+2020-11-01 22:12:19 cLoops2 INFO     Clustering chr4 and chr4 using eps 500, minPts 5,pre-set distance cutoff > 993
+2020-11-01 22:12:20 cLoops2 INFO     Clustering chr3 and chr3 finished. Estimated 0 self-ligation reads and 59748 inter-ligation reads, 8032 candidate loops.
+2020-11-01 22:12:20 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:12:20 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:12:24 cLoops2 INFO     Clustering chr7 and chr7 finished. Estimated 0 self-ligation reads and 44620 inter-ligation reads, 5917 candidate loops.
+2020-11-01 22:12:27 cLoops2 INFO     Clustering chr1 and chr1 finished. Estimated 0 self-ligation reads and 79613 inter-ligation reads, 9929 candidate loops.
+2020-11-01 22:12:27 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:12:27 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:12:29 cLoops2 INFO     Clustering chr5 and chr5 finished. Estimated 68 self-ligation reads and 54045 inter-ligation reads, 6997 candidate loops.
+2020-11-01 22:12:33 cLoops2 INFO     Clustering chr21 and chr21 finished. Estimated 6753 self-ligation reads and 29384 inter-ligation reads, 3248 candidate loops.
+2020-11-01 22:12:33 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:12:33 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:12:33 cLoops2 INFO     Clustering chr6 and chr6 using eps 500, minPts 5,pre-set distance cutoff > 993
+2020-11-01 22:12:36 cLoops2 INFO     Clustering chr20 and chr20 finished. Estimated 8876 self-ligation reads and 42123 inter-ligation reads, 4229 candidate loops.
+2020-11-01 22:12:37 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:12:37 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:12:37 cLoops2 INFO     Clustering chr5 and chr5 using eps 500, minPts 5,pre-set distance cutoff > 993
+2020-11-01 22:12:38 cLoops2 INFO     Clustering chr16 and chr16 finished. Estimated 7990 self-ligation reads and 46056 inter-ligation reads, 4570 candidate loops.
+2020-11-01 22:12:38 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:12:38 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:12:39 cLoops2 INFO     Clustering chr19 and chr19 using eps 500, minPts 5,pre-set distance cutoff > 993
+2020-11-01 22:12:40 cLoops2 INFO     Clustering chr2 and chr2 finished. Estimated 66 self-ligation reads and 78466 inter-ligation reads, 10245 candidate loops.
+2020-11-01 22:12:40 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:12:40 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:12:41 cLoops2 INFO     Estimated inter-ligation and self-ligation distance cutoff > 949 for eps=200,minPts=5
+2020-11-01 22:12:42 cLoops2 INFO     Clustering chr21 and chr21 using eps 500, minPts 5,pre-set distance cutoff > 949
+2020-11-01 22:12:42 cLoops2 INFO     Clustering chr20 and chr20 using eps 500, minPts 5,pre-set distance cutoff > 949
+2020-11-01 22:12:42 cLoops2 INFO     Clustering chr16 and chr16 using eps 500, minPts 5,pre-set distance cutoff > 949
+2020-11-01 22:12:42 cLoops2 INFO     Clustering chr17 and chr17 using eps 500, minPts 5,pre-set distance cutoff > 949
+2020-11-01 22:12:42 cLoops2 INFO     Clustering chr15 and chr15 using eps 500, minPts 5,pre-set distance cutoff > 949
+2020-11-01 22:12:42 cLoops2 INFO     Clustering chr14 and chr14 using eps 500, minPts 5,pre-set distance cutoff > 949
+2020-11-01 22:12:42 cLoops2 INFO     Clustering chr11 and chr11 using eps 500, minPts 5,pre-set distance cutoff > 949
+2020-11-01 22:12:42 cLoops2 INFO     Clustering chr8 and chr8 using eps 500, minPts 5,pre-set distance cutoff > 949
+2020-11-01 22:12:42 cLoops2 INFO     Clustering chr10 and chr10 using eps 500, minPts 5,pre-set distance cutoff > 949
+2020-11-01 22:12:42 cLoops2 INFO     Clustering chr13 and chr13 using eps 500, minPts 5,pre-set distance cutoff > 949
+2020-11-01 22:12:42 cLoops2 INFO     Clustering chrX and chrX using eps 500, minPts 5,pre-set distance cutoff > 949
+2020-11-01 22:12:43 cLoops2 INFO     Clustering chr4 and chr4 using eps 500, minPts 5,pre-set distance cutoff > 949
+2020-11-01 22:12:43 cLoops2 INFO     Clustering chr3 and chr3 using eps 500, minPts 5,pre-set distance cutoff > 949
+2020-11-01 22:12:43 cLoops2 INFO     Clustering chr2 and chr2 using eps 500, minPts 5,pre-set distance cutoff > 949
+2020-11-01 22:12:43 cLoops2 INFO     Clustering chr1 and chr1 using eps 500, minPts 5,pre-set distance cutoff > 949
+2020-11-01 22:12:47 cLoops2 INFO     Clustering chr17 and chr17 finished. Estimated 16174 self-ligation reads and 66953 inter-ligation reads, 6361 candidate loops.
+2020-11-01 22:12:48 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:12:48 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:12:48 cLoops2 INFO     Clustering chrY and chrY using eps 500, minPts 5,pre-set distance cutoff > 993
+2020-11-01 22:12:49 cLoops2 INFO     Clustering chrY and chrY finished. Estimated 129 self-ligation reads and 628 inter-ligation reads, 78 candidate loops.
+2020-11-01 22:12:49 cLoops2 INFO     Clustering chr9 and chr9 using eps 500, minPts 5,pre-set distance cutoff > 993
+2020-11-01 22:12:50 cLoops2 INFO     Clustering chrX and chrX finished. Estimated 6918 self-ligation reads and 45396 inter-ligation reads, 5161 candidate loops.
+2020-11-01 22:12:50 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:12:50 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:12:51 cLoops2 INFO     Clustering chr15 and chr15 finished. Estimated 16775 self-ligation reads and 58775 inter-ligation reads, 6098 candidate loops.
+2020-11-01 22:12:51 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:12:51 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:12:51 cLoops2 INFO     Clustering chr22 and chr22 using eps 500, minPts 5,pre-set distance cutoff > 993
+2020-11-01 22:12:51 cLoops2 INFO     Clustering chr12 and chr12 using eps 500, minPts 5,pre-set distance cutoff > 993
+2020-11-01 22:12:55 cLoops2 INFO     Clustering chr19 and chr19 finished. Estimated 4785 self-ligation reads and 38806 inter-ligation reads, 3408 candidate loops.
+2020-11-01 22:12:56 cLoops2 INFO     Clustering chr7 and chr7 using eps 500, minPts 5,pre-set distance cutoff > 993
+2020-11-01 22:13:01 cLoops2 INFO     Clustering chr14 and chr14 finished. Estimated 28054 self-ligation reads and 78162 inter-ligation reads, 8228 candidate loops.
+2020-11-01 22:13:01 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:13:01 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:13:02 cLoops2 INFO     Clustering chr18 and chr18 using eps 500, minPts 5,pre-set distance cutoff > 993
+2020-11-01 22:13:02 cLoops2 INFO     Clustering chr22 and chr22 finished. Estimated 6750 self-ligation reads and 22363 inter-ligation reads, 2084 candidate loops.
+2020-11-01 22:13:09 cLoops2 INFO     Clustering chr13 and chr13 finished. Estimated 21852 self-ligation reads and 78956 inter-ligation reads, 9466 candidate loops.
+2020-11-01 22:13:09 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:13:09 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:13:14 cLoops2 INFO     Clustering chr21 and chr21 finished. Estimated 6915 self-ligation reads and 51299 inter-ligation reads, 6487 candidate loops.
+2020-11-01 22:13:14 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:13:14 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:13:15 cLoops2 INFO     Clustering chr6 and chr6 using eps 500, minPts 5,pre-set distance cutoff > 949
+2020-11-01 22:13:25 cLoops2 INFO     Clustering chr11 and chr11 finished. Estimated 27819 self-ligation reads and 103045 inter-ligation reads, 11266 candidate loops.
+2020-11-01 22:13:25 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:13:25 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:13:25 cLoops2 INFO     Clustering chr20 and chr20 finished. Estimated 7741 self-ligation reads and 67436 inter-ligation reads, 8239 candidate loops.
+2020-11-01 22:13:25 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:13:25 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:13:26 cLoops2 INFO     Clustering chr5 and chr5 using eps 500, minPts 5,pre-set distance cutoff > 949
+2020-11-01 22:13:30 cLoops2 INFO     Clustering chr10 and chr10 finished. Estimated 28576 self-ligation reads and 111709 inter-ligation reads, 12071 candidate loops.
+2020-11-01 22:13:30 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:13:30 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:13:31 cLoops2 INFO     Clustering chr16 and chr16 finished. Estimated 8909 self-ligation reads and 78147 inter-ligation reads, 9411 candidate loops.
+2020-11-01 22:13:31 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:13:31 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:13:31 cLoops2 INFO     Clustering chr19 and chr19 using eps 500, minPts 5,pre-set distance cutoff > 949
+2020-11-01 22:13:31 cLoops2 INFO     Clustering chr8 and chr8 finished. Estimated 24025 self-ligation reads and 102852 inter-ligation reads, 11986 candidate loops.
+2020-11-01 22:13:32 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:13:32 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:13:35 cLoops2 INFO     Clustering chr17 and chr17 finished. Estimated 14315 self-ligation reads and 89911 inter-ligation reads, 10484 candidate loops.
+2020-11-01 22:13:35 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:13:35 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:13:35 cLoops2 INFO     Clustering chrY and chrY using eps 500, minPts 5,pre-set distance cutoff > 949
+2020-11-01 22:13:36 cLoops2 INFO     Clustering chrY and chrY finished. Estimated 0 self-ligation reads and 938 inter-ligation reads, 145 candidate loops.
+2020-11-01 22:13:37 cLoops2 INFO     Clustering chr9 and chr9 using eps 500, minPts 5,pre-set distance cutoff > 949
+2020-11-01 22:13:38 cLoops2 INFO     Clustering chr15 and chr15 finished. Estimated 13921 self-ligation reads and 90876 inter-ligation reads, 11209 candidate loops.
+2020-11-01 22:13:38 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:13:38 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:13:38 cLoops2 INFO     Clustering chr22 and chr22 using eps 500, minPts 5,pre-set distance cutoff > 949
+2020-11-01 22:13:38 cLoops2 INFO     Clustering chr18 and chr18 finished. Estimated 13088 self-ligation reads and 53981 inter-ligation reads, 6482 candidate loops.
+2020-11-01 22:13:40 cLoops2 INFO     Clustering chr9 and chr9 finished. Estimated 17189 self-ligation reads and 83064 inter-ligation reads, 9407 candidate loops.
+2020-11-01 22:13:48 cLoops2 INFO     Clustering chrX and chrX finished. Estimated 3383 self-ligation reads and 74458 inter-ligation reads, 10390 candidate loops.
+2020-11-01 22:13:48 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:13:48 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:13:49 cLoops2 INFO     Clustering chr12 and chr12 using eps 500, minPts 5,pre-set distance cutoff > 949
+2020-11-01 22:13:53 cLoops2 INFO     Clustering chr22 and chr22 finished. Estimated 6140 self-ligation reads and 30579 inter-ligation reads, 3559 candidate loops.
+2020-11-01 22:13:54 cLoops2 INFO     Clustering chr7 and chr7 using eps 500, minPts 5,pre-set distance cutoff > 949
+2020-11-01 22:13:55 cLoops2 INFO     Clustering chr19 and chr19 finished. Estimated 5180 self-ligation reads and 47589 inter-ligation reads, 5214 candidate loops.
+2020-11-01 22:13:56 cLoops2 INFO     Clustering chr18 and chr18 using eps 500, minPts 5,pre-set distance cutoff > 949
+2020-11-01 22:14:02 cLoops2 INFO     Clustering chr14 and chr14 finished. Estimated 20878 self-ligation reads and 126870 inter-ligation reads, 15554 candidate loops.
+2020-11-01 22:14:02 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:14:02 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:14:03 cLoops2 INFO     Clustering chr4 and chr4 finished. Estimated 29052 self-ligation reads and 141813 inter-ligation reads, 17305 candidate loops.
+2020-11-01 22:14:04 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:14:04 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:14:09 cLoops2 INFO     Clustering chr12 and chr12 finished. Estimated 35152 self-ligation reads and 122516 inter-ligation reads, 13360 candidate loops.
+2020-11-01 22:14:10 cLoops2 INFO     Clustering chr7 and chr7 finished. Estimated 29316 self-ligation reads and 120528 inter-ligation reads, 13935 candidate loops.
+2020-11-01 22:14:11 cLoops2 INFO     Clustering chr6 and chr6 finished. Estimated 46208 self-ligation reads and 161606 inter-ligation reads, 17817 candidate loops.
+2020-11-01 22:14:12 cLoops2 INFO     Clustering chr5 and chr5 finished. Estimated 42594 self-ligation reads and 148168 inter-ligation reads, 17071 candidate loops.
+2020-11-01 22:14:19 cLoops2 INFO     Clustering chr3 and chr3 finished. Estimated 44164 self-ligation reads and 175073 inter-ligation reads, 19926 candidate loops.
+2020-11-01 22:14:19 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:14:19 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:14:24 cLoops2 INFO     Clustering chr13 and chr13 finished. Estimated 15313 self-ligation reads and 152410 inter-ligation reads, 19869 candidate loops.
+2020-11-01 22:14:24 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:14:24 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:14:28 cLoops2 INFO     Clustering chr1 and chr1 finished. Estimated 56610 self-ligation reads and 207705 inter-ligation reads, 22003 candidate loops.
+2020-11-01 22:14:28 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:14:28 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:14:35 cLoops2 INFO     Clustering chr11 and chr11 finished. Estimated 21346 self-ligation reads and 178280 inter-ligation reads, 22463 candidate loops.
+2020-11-01 22:14:36 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:14:36 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:14:39 cLoops2 INFO     Clustering chr2 and chr2 finished. Estimated 61323 self-ligation reads and 218953 inter-ligation reads, 24226 candidate loops.
+2020-11-01 22:14:39 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:14:39 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:14:41 cLoops2 INFO     Estimated inter-ligation and self-ligation distance cutoff > 964 for eps=500,minPts=5
+2020-11-01 22:14:42 cLoops2 INFO     Clustering chr20 and chr20 using eps 1000, minPts 5,pre-set distance cutoff > 964
+2020-11-01 22:14:42 cLoops2 INFO     Clustering chr21 and chr21 using eps 1000, minPts 5,pre-set distance cutoff > 964
+2020-11-01 22:14:42 cLoops2 INFO     Clustering chr16 and chr16 using eps 1000, minPts 5,pre-set distance cutoff > 964
+2020-11-01 22:14:42 cLoops2 INFO     Clustering chr17 and chr17 using eps 1000, minPts 5,pre-set distance cutoff > 964
+2020-11-01 22:14:42 cLoops2 INFO     Clustering chr10 and chr10 using eps 1000, minPts 5,pre-set distance cutoff > 964
+2020-11-01 22:14:42 cLoops2 INFO     Clustering chr14 and chr14 using eps 1000, minPts 5,pre-set distance cutoff > 964
+2020-11-01 22:14:42 cLoops2 INFO     Clustering chr15 and chr15 using eps 1000, minPts 5,pre-set distance cutoff > 964
+2020-11-01 22:14:42 cLoops2 INFO     Clustering chr13 and chr13 using eps 1000, minPts 5,pre-set distance cutoff > 964
+2020-11-01 22:14:42 cLoops2 INFO     Clustering chrX and chrX using eps 1000, minPts 5,pre-set distance cutoff > 964
+2020-11-01 22:14:43 cLoops2 INFO     Clustering chr11 and chr11 using eps 1000, minPts 5,pre-set distance cutoff > 964
+2020-11-01 22:14:43 cLoops2 INFO     Clustering chr8 and chr8 using eps 1000, minPts 5,pre-set distance cutoff > 964
+2020-11-01 22:14:43 cLoops2 INFO     Clustering chr1 and chr1 using eps 1000, minPts 5,pre-set distance cutoff > 964
+2020-11-01 22:14:43 cLoops2 INFO     Clustering chr2 and chr2 using eps 1000, minPts 5,pre-set distance cutoff > 964
+2020-11-01 22:14:43 cLoops2 INFO     Clustering chr4 and chr4 using eps 1000, minPts 5,pre-set distance cutoff > 964
+2020-11-01 22:14:43 cLoops2 INFO     Clustering chr3 and chr3 using eps 1000, minPts 5,pre-set distance cutoff > 964
+2020-11-01 22:14:45 cLoops2 INFO     Clustering chr10 and chr10 finished. Estimated 23890 self-ligation reads and 192964 inter-ligation reads, 24149 candidate loops.
+2020-11-01 22:14:46 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:14:46 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:14:52 cLoops2 INFO     Clustering chr8 and chr8 finished. Estimated 18042 self-ligation reads and 205434 inter-ligation reads, 26360 candidate loops.
+2020-11-01 22:14:52 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:14:52 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:14:55 cLoops2 INFO     Clustering chr18 and chr18 finished. Estimated 9521 self-ligation reads and 110176 inter-ligation reads, 14332 candidate loops.
+2020-11-01 22:15:01 cLoops2 INFO     Clustering chr9 and chr9 finished. Estimated 14770 self-ligation reads and 152597 inter-ligation reads, 19440 candidate loops.
+2020-11-01 22:15:13 cLoops2 INFO     Clustering chr21 and chr21 finished. Estimated 56961 self-ligation reads and 35208 inter-ligation reads, 4549 candidate loops.
+2020-11-01 22:15:13 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:15:13 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:15:13 cLoops2 INFO     Clustering chr6 and chr6 using eps 1000, minPts 5,pre-set distance cutoff > 964
+2020-11-01 22:15:24 cLoops2 INFO     Clustering chr16 and chr16 finished. Estimated 70067 self-ligation reads and 54866 inter-ligation reads, 6923 candidate loops.
+2020-11-01 22:15:24 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:15:24 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:15:25 cLoops2 INFO     Clustering chr5 and chr5 using eps 1000, minPts 5,pre-set distance cutoff > 964
+2020-11-01 22:15:27 cLoops2 INFO     Clustering chr20 and chr20 finished. Estimated 69732 self-ligation reads and 46775 inter-ligation reads, 6089 candidate loops.
+2020-11-01 22:15:27 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:15:27 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:15:27 cLoops2 INFO     Clustering chr19 and chr19 using eps 1000, minPts 5,pre-set distance cutoff > 964
+2020-11-01 22:15:33 cLoops2 INFO     Clustering chr17 and chr17 finished. Estimated 101274 self-ligation reads and 64992 inter-ligation reads, 7920 candidate loops.
+2020-11-01 22:15:33 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:15:33 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:15:34 cLoops2 INFO     Clustering chrY and chrY using eps 1000, minPts 5,pre-set distance cutoff > 964
+2020-11-01 22:15:35 cLoops2 INFO     Clustering chrY and chrY finished. Estimated 863 self-ligation reads and 1264 inter-ligation reads, 184 candidate loops.
+2020-11-01 22:15:35 cLoops2 INFO     Clustering chr9 and chr9 using eps 1000, minPts 5,pre-set distance cutoff > 964
+2020-11-01 22:15:42 cLoops2 INFO     Clustering chr15 and chr15 finished. Estimated 107546 self-ligation reads and 66417 inter-ligation reads, 8576 candidate loops.
+2020-11-01 22:15:42 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:15:42 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:15:43 cLoops2 INFO     Clustering chr22 and chr22 using eps 1000, minPts 5,pre-set distance cutoff > 964
+2020-11-01 22:15:54 cLoops2 INFO     Clustering chr19 and chr19 finished. Estimated 38247 self-ligation reads and 39449 inter-ligation reads, 4375 candidate loops.
+2020-11-01 22:15:54 cLoops2 INFO     Clustering chr4 and chr4 finished. Estimated 23375 self-ligation reads and 274833 inter-ligation reads, 36668 candidate loops.
+2020-11-01 22:15:54 cLoops2 INFO     Clustering chr12 and chr12 using eps 1000, minPts 5,pre-set distance cutoff > 964
+2020-11-01 22:15:55 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:15:55 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:15:57 cLoops2 INFO     Clustering chr12 and chr12 finished. Estimated 23876 self-ligation reads and 211235 inter-ligation reads, 26146 candidate loops.
+2020-11-01 22:15:58 cLoops2 INFO     Clustering chr1 and chr1 finished. Estimated 43263 self-ligation reads and 325127 inter-ligation reads, 39947 candidate loops.
+2020-11-01 22:15:58 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:15:58 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:16:00 cLoops2 INFO     Clustering chr22 and chr22 finished. Estimated 32167 self-ligation reads and 21967 inter-ligation reads, 2636 candidate loops.
+2020-11-01 22:16:00 cLoops2 INFO     Clustering chr14 and chr14 finished. Estimated 156974 self-ligation reads and 89852 inter-ligation reads, 11504 candidate loops.
+2020-11-01 22:16:00 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:16:00 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:16:00 cLoops2 INFO     Clustering chr7 and chr7 using eps 1000, minPts 5,pre-set distance cutoff > 964
+2020-11-01 22:16:01 cLoops2 INFO     Clustering chr18 and chr18 using eps 1000, minPts 5,pre-set distance cutoff > 964
+2020-11-01 22:16:02 cLoops2 INFO     Clustering chrX and chrX finished. Estimated 77125 self-ligation reads and 87775 inter-ligation reads, 12389 candidate loops.
+2020-11-01 22:16:02 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:16:02 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:16:03 cLoops2 INFO     Clustering chr6 and chr6 finished. Estimated 34505 self-ligation reads and 282437 inter-ligation reads, 35292 candidate loops.
+2020-11-01 22:16:09 cLoops2 INFO     Clustering chr5 and chr5 finished. Estimated 31896 self-ligation reads and 273385 inter-ligation reads, 35059 candidate loops.
+2020-11-01 22:16:10 cLoops2 INFO     Clustering chr7 and chr7 finished. Estimated 26854 self-ligation reads and 229959 inter-ligation reads, 29461 candidate loops.
+2020-11-01 22:16:14 cLoops2 INFO     Clustering chr3 and chr3 finished. Estimated 36252 self-ligation reads and 309887 inter-ligation reads, 39607 candidate loops.
+2020-11-01 22:16:15 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:16:15 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:16:26 cLoops2 INFO     Clustering chr13 and chr13 finished. Estimated 179210 self-ligation reads and 107853 inter-ligation reads, 14221 candidate loops.
+2020-11-01 22:16:26 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:16:26 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:16:27 cLoops2 INFO     Clustering chr11 and chr11 finished. Estimated 192898 self-ligation reads and 127979 inter-ligation reads, 16476 candidate loops.
+2020-11-01 22:16:27 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:16:27 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:16:42 cLoops2 INFO     Clustering chr10 and chr10 finished. Estimated 218515 self-ligation reads and 127208 inter-ligation reads, 16633 candidate loops.
+2020-11-01 22:16:42 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:16:42 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:16:43 cLoops2 INFO     Clustering chr2 and chr2 finished. Estimated 48982 self-ligation reads and 384185 inter-ligation reads, 48611 candidate loops.
+2020-11-01 22:16:43 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:16:43 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:16:46 cLoops2 INFO     Estimated inter-ligation and self-ligation distance cutoff > 908 for eps=500,minPts=5
+2020-11-01 22:16:47 cLoops2 INFO     Clustering chr21 and chr21 using eps 1000, minPts 5,pre-set distance cutoff > 908
+2020-11-01 22:16:47 cLoops2 INFO     Clustering chr20 and chr20 using eps 1000, minPts 5,pre-set distance cutoff > 908
+2020-11-01 22:16:47 cLoops2 INFO     Clustering chr15 and chr15 using eps 1000, minPts 5,pre-set distance cutoff > 908
+2020-11-01 22:16:47 cLoops2 INFO     Clustering chr17 and chr17 using eps 1000, minPts 5,pre-set distance cutoff > 908
+2020-11-01 22:16:47 cLoops2 INFO     Clustering chr16 and chr16 using eps 1000, minPts 5,pre-set distance cutoff > 908
+2020-11-01 22:16:47 cLoops2 INFO     Clustering chr14 and chr14 using eps 1000, minPts 5,pre-set distance cutoff > 908
+2020-11-01 22:16:48 cLoops2 INFO     Clustering chrX and chrX using eps 1000, minPts 5,pre-set distance cutoff > 908
+2020-11-01 22:16:48 cLoops2 INFO     Clustering chr13 and chr13 using eps 1000, minPts 5,pre-set distance cutoff > 908
+2020-11-01 22:16:48 cLoops2 INFO     Clustering chr10 and chr10 using eps 1000, minPts 5,pre-set distance cutoff > 908
+2020-11-01 22:16:48 cLoops2 INFO     Clustering chr11 and chr11 using eps 1000, minPts 5,pre-set distance cutoff > 908
+2020-11-01 22:16:48 cLoops2 INFO     Clustering chr8 and chr8 using eps 1000, minPts 5,pre-set distance cutoff > 908
+2020-11-01 22:16:48 cLoops2 INFO     Clustering chr1 and chr1 using eps 1000, minPts 5,pre-set distance cutoff > 908
+2020-11-01 22:16:48 cLoops2 INFO     Clustering chr4 and chr4 using eps 1000, minPts 5,pre-set distance cutoff > 908
+2020-11-01 22:16:48 cLoops2 INFO     Clustering chr3 and chr3 using eps 1000, minPts 5,pre-set distance cutoff > 908
+2020-11-01 22:16:48 cLoops2 INFO     Clustering chr2 and chr2 using eps 1000, minPts 5,pre-set distance cutoff > 908
+2020-11-01 22:17:00 cLoops2 INFO     Clustering chr18 and chr18 finished. Estimated 111862 self-ligation reads and 78098 inter-ligation reads, 10457 candidate loops.
+2020-11-01 22:17:01 cLoops2 INFO     Clustering chr9 and chr9 finished. Estimated 156401 self-ligation reads and 109277 inter-ligation reads, 14286 candidate loops.
+2020-11-01 22:17:03 cLoops2 INFO     Clustering chr8 and chr8 finished. Estimated 218209 self-ligation reads and 138591 inter-ligation reads, 18461 candidate loops.
+2020-11-01 22:17:03 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:17:03 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:17:36 cLoops2 INFO     Clustering chr21 and chr21 finished. Estimated 106152 self-ligation reads and 46944 inter-ligation reads, 5895 candidate loops.
+2020-11-01 22:17:36 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:17:36 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:17:37 cLoops2 INFO     Clustering chr6 and chr6 using eps 1000, minPts 5,pre-set distance cutoff > 908
+2020-11-01 22:17:55 cLoops2 INFO     Clustering chr12 and chr12 finished. Estimated 243617 self-ligation reads and 136629 inter-ligation reads, 17476 candidate loops.
+2020-11-01 22:18:00 cLoops2 INFO     Clustering chr20 and chr20 finished. Estimated 122513 self-ligation reads and 79881 inter-ligation reads, 10280 candidate loops.
+2020-11-01 22:18:00 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:18:00 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:18:00 cLoops2 INFO     Clustering chr4 and chr4 finished. Estimated 313910 self-ligation reads and 201641 inter-ligation reads, 27009 candidate loops.
+2020-11-01 22:18:01 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:18:01 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:18:02 cLoops2 INFO     Clustering chr5 and chr5 using eps 1000, minPts 5,pre-set distance cutoff > 908
+2020-11-01 22:18:09 cLoops2 INFO     Clustering chr6 and chr6 finished. Estimated 322696 self-ligation reads and 190542 inter-ligation reads, 24465 candidate loops.
+2020-11-01 22:18:12 cLoops2 INFO     Clustering chr16 and chr16 finished. Estimated 138967 self-ligation reads and 88312 inter-ligation reads, 11142 candidate loops.
+2020-11-01 22:18:12 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:18:12 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:18:13 cLoops2 INFO     Clustering chr19 and chr19 using eps 1000, minPts 5,pre-set distance cutoff > 908
+2020-11-01 22:18:15 cLoops2 INFO     Clustering chr17 and chr17 finished. Estimated 155578 self-ligation reads and 93492 inter-ligation reads, 11667 candidate loops.
+2020-11-01 22:18:15 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:18:15 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:18:15 cLoops2 INFO     Clustering chr3 and chr3 finished. Estimated 363333 self-ligation reads and 209817 inter-ligation reads, 27632 candidate loops.
+2020-11-01 22:18:16 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:18:16 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:18:16 cLoops2 INFO     Clustering chrY and chrY using eps 1000, minPts 5,pre-set distance cutoff > 908
+2020-11-01 22:18:16 cLoops2 INFO     Clustering chr7 and chr7 finished. Estimated 245356 self-ligation reads and 152452 inter-ligation reads, 19941 candidate loops.
+2020-11-01 22:18:17 cLoops2 INFO     Clustering chrY and chrY finished. Estimated 736 self-ligation reads and 2515 inter-ligation reads, 388 candidate loops.
+2020-11-01 22:18:18 cLoops2 INFO     Clustering chr9 and chr9 using eps 1000, minPts 5,pre-set distance cutoff > 908
+2020-11-01 22:18:21 cLoops2 INFO     Clustering chr1 and chr1 finished. Estimated 392772 self-ligation reads and 221030 inter-ligation reads, 28115 candidate loops.
+2020-11-01 22:18:22 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:18:22 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:18:24 cLoops2 INFO     Clustering chr5 and chr5 finished. Estimated 306870 self-ligation reads and 191514 inter-ligation reads, 24978 candidate loops.
+2020-11-01 22:18:29 cLoops2 INFO     Clustering chr15 and chr15 finished. Estimated 170826 self-ligation reads and 102247 inter-ligation reads, 13133 candidate loops.
+2020-11-01 22:18:29 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:18:29 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:18:29 cLoops2 INFO     Clustering chr22 and chr22 using eps 1000, minPts 5,pre-set distance cutoff > 908
+2020-11-01 22:18:50 cLoops2 INFO     Clustering chr14 and chr14 finished. Estimated 258227 self-ligation reads and 122334 inter-ligation reads, 15366 candidate loops.
+2020-11-01 22:18:50 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:18:50 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:18:52 cLoops2 INFO     Clustering chr12 and chr12 using eps 1000, minPts 5,pre-set distance cutoff > 908
+2020-11-01 22:18:54 cLoops2 INFO     Clustering chr22 and chr22 finished. Estimated 51290 self-ligation reads and 34511 inter-ligation reads, 4401 candidate loops.
+2020-11-01 22:18:54 cLoops2 INFO     Clustering chr7 and chr7 using eps 1000, minPts 5,pre-set distance cutoff > 908
+2020-11-01 22:18:55 cLoops2 INFO     Clustering chr19 and chr19 finished. Estimated 60923 self-ligation reads and 58270 inter-ligation reads, 7248 candidate loops.
+2020-11-01 22:18:56 cLoops2 INFO     Clustering chr18 and chr18 using eps 1000, minPts 5,pre-set distance cutoff > 908
+2020-11-01 22:19:00 cLoops2 INFO     Clustering chrX and chrX finished. Estimated 140184 self-ligation reads and 153283 inter-ligation reads, 21130 candidate loops.
+2020-11-01 22:19:00 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:19:00 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:19:07 cLoops2 INFO     Clustering chr2 and chr2 finished. Estimated 443385 self-ligation reads and 255244 inter-ligation reads, 33228 candidate loops.
+2020-11-01 22:19:08 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:19:08 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:19:10 cLoops2 INFO     Estimated inter-ligation and self-ligation distance cutoff > 878 for eps=1000,minPts=5
+2020-11-01 22:19:11 cLoops2 INFO     Estimating loop statstical significance.
+2020-11-01 22:19:17 cLoops2 INFO     Estimate significance for 16444 candidate interactions in chr17-chr17 with 419724 PETs distance > =878 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-01 22:19:18 cLoops2 INFO     Clustering chr13 and chr13 finished. Estimated 326654 self-ligation reads and 140697 inter-ligation reads, 17672 candidate loops.
+2020-11-01 22:19:18 cLoops2 INFO     Estimate significance for 12798 candidate interactions in chr16-chr16 with 352701 PETs distance > =878 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-01 22:19:18 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:19:18 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:19:20 cLoops2 INFO     Estimate significance for 8470 candidate interactions in chr21-chr21 with 218369 PETs distance > =878 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-01 22:19:20 cLoops2 INFO     Estimate significance for 22248 candidate interactions in chr14-chr14 with 607391 PETs distance > =878 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-01 22:19:20 cLoops2 INFO     Estimate significance for 11530 candidate interactions in chr20-chr20 with 319467 PETs distance > =878 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-01 22:19:23 cLoops2 INFO     Estimate significance for 30501 candidate interactions in chr11-chr11 with 851102 PETs distance > =878 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-01 22:19:24 cLoops2 INFO     Estimate significance for 16462 candidate interactions in chr15-chr15 with 453082 PETs distance > =878 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-01 22:19:25 cLoops2 INFO     Estimate significance for 32722 candidate interactions in chr8-chr8 with 943063 PETs distance > =878 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-01 22:19:26 cLoops2 INFO     Estimate significance for 18434 candidate interactions in chrX-chrX with 657451 PETs distance > =878 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-01 22:19:27 cLoops2 INFO     Estimate significance for 31660 candidate interactions in chr10-chr10 with 898463 PETs distance > =878 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-01 22:19:27 cLoops2 INFO     Estimate significance for 63185 candidate interactions in chr2-chr2 with 1854964 PETs distance > =878 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-01 22:19:28 cLoops2 INFO     Estimate significance for 25464 candidate interactions in chr13-chr13 with 720602 PETs distance > =878 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-01 22:19:38 cLoops2 INFO     Estimate significance for 51814 candidate interactions in chr3-chr3 with 1516313 PETs distance > =878 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-01 22:19:38 cLoops2 INFO     Estimate significance for 56087 candidate interactions in chr1-chr1 with 1606810 PETs distance > =878 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-01 22:19:40 cLoops2 INFO     Estimate significance for 46850 candidate interactions in chr4-chr4 with 1385652 PETs distance > =878 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-01 22:20:21 cLoops2 INFO     Clustering chr11 and chr11 finished. Estimated 359850 self-ligation reads and 175947 inter-ligation reads, 22285 candidate loops.
+2020-11-01 22:20:21 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:20:21 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:21:10 cLoops2 INFO     Clustering chr18 and chr18 finished. Estimated 235895 self-ligation reads and 105444 inter-ligation reads, 13219 candidate loops.
+2020-11-01 22:21:14 cLoops2 INFO     Clustering chr8 and chr8 finished. Estimated 427609 self-ligation reads and 194355 inter-ligation reads, 24435 candidate loops.
+2020-11-01 22:21:15 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:21:15 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:21:48 cLoops2 INFO     Clustering chr9 and chr9 finished. Estimated 309280 self-ligation reads and 149387 inter-ligation reads, 18916 candidate loops.
+2020-11-01 22:21:59 cLoops2 INFO     Clustering chr10 and chr10 finished. Estimated 387550 self-ligation reads and 185623 inter-ligation reads, 23295 candidate loops.
+2020-11-01 22:22:00 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:22:00 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:23:37 cLoops2 INFO     Clustering chr12 and chr12 finished. Estimated 414612 self-ligation reads and 191969 inter-ligation reads, 23662 candidate loops.
+2020-11-01 22:24:22 cLoops2 INFO     Clustering chr3 and chr3 finished. Estimated 648607 self-ligation reads and 283526 inter-ligation reads, 35625 candidate loops.
+2020-11-01 22:24:22 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:24:22 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:24:28 cLoops2 INFO     Clustering chr6 and chr6 finished. Estimated 587592 self-ligation reads and 243394 inter-ligation reads, 30186 candidate loops.
+2020-11-01 22:25:11 cLoops2 INFO     Clustering chr1 and chr1 finished. Estimated 623994 self-ligation reads and 320923 inter-ligation reads, 39990 candidate loops.
+2020-11-01 22:25:11 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:25:11 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:25:20 cLoops2 INFO     Clustering chr5 and chr5 finished. Estimated 573743 self-ligation reads and 256609 inter-ligation reads, 31910 candidate loops.
+2020-11-01 22:26:08 cLoops2 INFO     Estimate significance for 46661 candidate interactions in chr6-chr6 with 1306617 PETs distance > =878 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-01 22:27:06 cLoops2 INFO     Clustering chr4 and chr4 finished. Estimated 585395 self-ligation reads and 278410 inter-ligation reads, 34874 candidate loops.
+2020-11-01 22:27:07 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:27:07 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:28:50 cLoops2 INFO     Clustering chr7 and chr7 finished. Estimated 468515 self-ligation reads and 210683 inter-ligation reads, 26405 candidate loops.
+2020-11-01 22:32:17 cLoops2 INFO     Clustering chr2 and chr2 finished. Estimated 777033 self-ligation reads and 354117 inter-ligation reads, 44134 candidate loops.
+2020-11-01 22:32:19 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-01 22:32:19 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-01 22:32:34 cLoops2 INFO     Estimated inter-ligation and self-ligation distance cutoff > 840 for eps=1000,minPts=5
+2020-11-01 22:32:37 cLoops2 INFO     Estimating loop statstical significance.
+2020-11-01 22:32:51 cLoops2 INFO     Estimate significance for 23851 candidate interactions in chr17-chr17 with 578513 PETs distance > =840 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-01 22:32:53 cLoops2 INFO     Estimate significance for 32956 candidate interactions in chr14-chr14 with 845946 PETs distance > =840 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-01 22:32:58 cLoops2 INFO     Estimate significance for 13046 candidate interactions in chr21-chr21 with 322979 PETs distance > =840 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-01 22:33:00 cLoops2 INFO     Estimate significance for 47188 candidate interactions in chr11-chr11 with 1240274 PETs distance > =840 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-01 22:33:01 cLoops2 INFO     Estimate significance for 21696 candidate interactions in chr16-chr16 with 541633 PETs distance > =840 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-01 22:33:04 cLoops2 INFO     Estimate significance for 52925 candidate interactions in chr8-chr8 with 1412028 PETs distance > =840 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-01 22:33:04 cLoops2 INFO     Estimate significance for 19461 candidate interactions in chr20-chr20 with 475399 PETs distance > =840 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-01 22:33:08 cLoops2 INFO     Estimate significance for 49984 candidate interactions in chr10-chr10 with 1310460 PETs distance > =840 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-01 22:33:11 cLoops2 INFO     Estimate significance for 25757 candidate interactions in chr15-chr15 with 637770 PETs distance > =840 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-01 22:33:20 cLoops2 INFO     Estimate significance for 39172 candidate interactions in chr13-chr13 with 1038577 PETs distance > =840 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-01 22:33:24 cLoops2 INFO     Estimate significance for 97643 candidate interactions in chr2-chr2 with 2647674 PETs distance > =840 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-01 22:33:25 cLoops2 INFO     Estimate significance for 31494 candidate interactions in chrX-chrX with 943238 PETs distance > =840 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-01 22:33:44 cLoops2 INFO     Estimate significance for 85100 candidate interactions in chr1-chr1 with 2223068 PETs distance > =840 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-01 22:33:46 cLoops2 INFO     Estimate significance for 79056 candidate interactions in chr3-chr3 with 2162548 PETs distance > =840 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-01 22:33:46 cLoops2 INFO     Estimate significance for 73784 candidate interactions in chr4-chr4 with 2007495 PETs distance > =840 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-01 22:39:17 cLoops2 INFO     Estimate significance for 45651 candidate interactions in chr5-chr5 with 1320057 PETs distance > =878 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-01 23:10:34 cLoops2 INFO     Estimate significance for 8966 candidate interactions in chr19-chr19 with 235596 PETs distance > =878 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-01 23:18:14 cLoops2 INFO     Estimate significance for 262 candidate interactions in chrY-chrY with 17150 PETs distance > =878 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-01 23:18:28 cLoops2 INFO     Estimate significance for 25538 candidate interactions in chr9-chr9 with 702749 PETs distance > =878 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-01 23:28:25 cLoops2 INFO     Estimate significance for 5522 candidate interactions in chr22-chr22 with 145544 PETs distance > =878 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-01 23:33:05 cLoops2 INFO     Estimate significance for 34240 candidate interactions in chr12-chr12 with 964239 PETs distance > =878 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-01 23:40:17 cLoops2 INFO     Estimate significance for 69484 candidate interactions in chr6-chr6 with 1874791 PETs distance > =840 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-01 23:44:06 cLoops2 INFO     Estimate significance for 36793 candidate interactions in chr7-chr7 with 1055601 PETs distance > =878 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-01 23:59:21 cLoops2 INFO     Estimate significance for 18092 candidate interactions in chr18-chr18 with 491038 PETs distance > =878 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-02 00:21:45 cLoops2 INFO     Estimate significance for 70181 candidate interactions in chr5-chr5 with 1904247 PETs distance > =840 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-02 00:21:51 cLoops2 INFO     Estimate significance for 13383 candidate interactions in chr19-chr19 with 332433 PETs distance > =840 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-02 00:49:58 cLoops2 INFO     Estimate significance for 499 candidate interactions in chrY-chrY with 24733 PETs distance > =840 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-02 00:50:44 cLoops2 INFO     Estimate significance for 40243 candidate interactions in chr9-chr9 with 1031909 PETs distance > =840 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-02 01:03:46 cLoops2 INFO     Estimate significance for 8608 candidate interactions in chr22-chr22 with 209337 PETs distance > =840 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-02 01:20:40 cLoops2 INFO     Estimate significance for 52718 candidate interactions in chr12-chr12 with 1379304 PETs distance > =840 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-02 02:07:58 cLoops2 INFO     Estimate significance for 58570 candidate interactions in chr7-chr7 with 1563751 PETs distance > =840 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-02 02:23:52 cLoops2 INFO     Estimate significance for 28659 candidate interactions in chr18-chr18 with 746100 PETs distance > =840 and <=-1. Requiring >= 5 PETs in candidate loops.
+2020-11-02 10:09:20 cLoops2 INFO     Selecting the most significant loops of overlapped ones. 
+2020-11-02 10:10:52 cLoops2 INFO     Output 50649 loops to resting_loops.txt
+2020-11-02 10:10:57 cLoops2 INFO     cLoops2 callLoops finished. Used time: 11:59:51.411815.
+
+
+
+2020-11-02 15:45:22 cLoops2 INFO     Selecting the most significant loops of overlapped ones. 
+2020-11-02 15:46:29 cLoops2 INFO     Output 55717 loops to activate_loops.txt
+2020-11-02 15:46:35 cLoops2 INFO     cLoops2 callLoops finished. Used time: 17:35:29.096566.
+
+
+
+2020-11-02 16:40:24 cLoops2 INFO     Command cLoops2 agg -d ../activate_100m -o activate -cut 0 -mcut -1 -p 30 -skipZeros False -peaks  -peak_ext 5000 -peak_bins 100 -peak_norm False -loops activate_loops.txt -loop_ext 10 -loop_cut 0 -loop_norm True -viewPoints  -viewPoint_upExt 10 -viewPoint_downExt 10 -domains  -domain_ext 0.5 -domain_vmin None -domain_vmax None -bws  -1D False
+2020-11-02 16:41:31 cLoops2 INFO     55717 raw interaction contact matrix saved to activate_aggLoops.npz
+2020-11-02 16:41:35 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-02 16:41:35 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-02 16:41:35 cLoops2 INFO     cLoops2 agg finished. Used time: 0:01:10.999893.
+
+
+
+2020-11-02 16:41:37 cLoops2 INFO     Command cLoops2 agg -d ../resting_100m -o resting -cut 0 -mcut -1 -p 30 -skipZeros False -peaks  -peak_ext 5000 -peak_bins 100 -peak_norm False -loops resting_loops.txt -loop_ext 10 -loop_cut 0 -loop_norm True -viewPoints  -viewPoint_upExt 10 -viewPoint_downExt 10 -domains  -domain_ext 0.5 -domain_vmin None -domain_vmax None -bws  -1D False
+2020-11-02 16:42:43 cLoops2 INFO     50649 raw interaction contact matrix saved to resting_aggLoops.npz
+2020-11-02 16:42:47 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-02 16:42:47 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-02 16:42:47 cLoops2 INFO     cLoops2 agg finished. Used time: 0:01:09.735838.
+
+
+
+2020-12-01 17:33:21 cLoops2 INFO     Command cLoops2 agg -d ../activate_100m -o activate -cut 0 -mcut -1 -p 30 -skipZeros False -peaks  -peak_ext 5000 -peak_bins 100 -peak_norm False -loops  -loop_ext 10 -loop_cut 0 -loop_norm False -viewPoints  -viewPointUp 100000 -viewPointDown 100000 -viewPointBs 1000 -viewPoint_norm False -twoAnchors activate_loops.txt -twoAnchor_ext 0.25 -twoAnchor_vmin None -twoAnchor_vmax None -domains  -domain_ext 0.5 -domain_vmin None -domain_vmax None -bws  -1D True

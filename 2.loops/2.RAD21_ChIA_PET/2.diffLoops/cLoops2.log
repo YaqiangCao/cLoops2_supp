@@ -1,0 +1,7 @@
+2020-12-04 08:56:46 cLoops2 INFO     Command: cLoops2 callDiffLoops -tloop ../4.loops/K562_RAD21_ChIA-PET_loops.txt -cloop ../4.loops/GM12878_RAD21_ChIA-PET_loops.txt -td ../3.subSampling/K562_RAD21_17m -cd ../3.subSampling/GM12878_RAD21_17m -pcut 0.01 -fdr 0.1 -o ChIA-PET_K562vsGM -p 30 -j True -w True
+2020-12-04 09:03:51 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-12-04 09:03:51 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-12-04 09:04:55 cLoops2 INFO     cLoops2 callDiffLoops finished. Used time: 0:08:09.927306.
+
+
+

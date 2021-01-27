@@ -1,0 +1,1 @@
+cLoops2 callDiffLoops -tloop ../4.loops/K562_RAD21_ChIA-PET_loops.txt -td ../3.subSampling/K562_RAD21_17m -cloop ../4.loops/GM12878_RAD21_ChIA-PET_loops.txt -cd ../3.subSampling/GM12878_RAD21_17m -o ChIA-PET_K562vsGM -w -j -p 30

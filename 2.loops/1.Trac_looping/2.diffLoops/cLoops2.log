@@ -1,0 +1,7 @@
+2020-11-02 16:41:12 cLoops2 INFO     Command: cLoops2 callDiffLoops -tloop ../1.2.loops/activate_loops.txt -cloop ../1.2.loops/resting_loops.txt -td ../activate_100m -cd ../resting_100m -pcut 0.01 -fdr 0.1 -o actVsRes -p 25 -j True -w True
+2020-11-02 23:33:41 numexpr.utils INFO     Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-11-02 23:33:41 numexpr.utils INFO     NumExpr defaulting to 8 threads.
+2020-11-02 23:38:30 cLoops2 INFO     cLoops2 callDiffLoops finished. Used time: 6:57:18.377864.
+
+
+
