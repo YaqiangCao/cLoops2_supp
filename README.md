@@ -1,2 +1,4 @@
 # cLoops2_supp
-cLoops2 manuscript supplemental files
+- 1.peaks 
+- 2.loops
+- 3.GWAS\_annotation\_wtih\_GM12878\_HiTrac
